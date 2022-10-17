@@ -8,6 +8,9 @@ module.exports = {
     container: {
       center: true,
     },
+    fontFamily: {
+      'pop': ['Poppins', 'sans-serif'],
+    },
     extend: {
       fontSize:{
         large: "64px"
