@@ -10,7 +10,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
         <div className="flex items-center justify-between">
           {/* icon */}
           <div className="w-[10.0625rem] h-[5.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative">
-            <Image src={"/icons/logo.svg"} layout="fill" alt="logo" />
+            <Image src={"/icons/logo.svg"} layout="fill" alt="logo" priority/>
           </div>
 
           {/* hamburger */}
