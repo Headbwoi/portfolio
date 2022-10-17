@@ -1,6 +1,6 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import { Header } from "../components"
+import { Header, HeroSection } from "../components"
 
 const Home: NextPage = () => {
   return (
@@ -30,6 +30,8 @@ const Home: NextPage = () => {
         >
           <div className="container px-6 md:px-10 lg:px-5 xl:px-0">
             <Header />
+            {/* hero items' */}
+            <HeroSection />
           </div>
         </section>
       </main>
