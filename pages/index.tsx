@@ -6,11 +6,9 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <meta http-equihttpEquiv="X-UA-Compatible" content="IE=7" />
-        <meta http-equihttpEquiv="X-UA-Compatible" content="ie=edge" />
+        <title>My Portfolio</title>
         <meta
-          http-equihttpEquiv="Content-Type"
+          http-equihttpequiv="Content-Type"
           content="text/html;charset=UTF-8"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

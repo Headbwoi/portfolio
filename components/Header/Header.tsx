@@ -3,10 +3,10 @@ import Desktop from "../Navigation/Desktop"
 
 const Header = () => {
   return (
-    <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-">
+    <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14">
       <nav className=" h-14 md:h-16 lg:h-[6.25rem] w-full flex items-center justify-between">
         {/* icon */}
-        <div className="w-[7.0625rem] h-[3.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative">
+        <div className="w-[10.0625rem] h-[5.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative">
           <Image src={"/icons/logo.svg"} layout="fill" alt="logo" />
         </div>
 
