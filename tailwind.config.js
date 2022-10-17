@@ -43,7 +43,13 @@ module.exports = {
         },
       ],
       nav: [
-        "1.125rem",
+        "1.25rem",
+        {
+          fontWeight: "400",
+        },
+      ],
+      navlg: [
+        "1.5rem",
         {
           fontWeight: "400",
         },

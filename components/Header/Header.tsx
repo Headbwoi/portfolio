@@ -4,7 +4,7 @@ import { Desktop, Mobile } from "../Navigation/index"
 import Button from "../Utils/Button"
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
   const handleMenuToggle = () => {
     isOpen ? setIsOpen((prev) => !prev) : setIsOpen((prev) => !prev)
   }
