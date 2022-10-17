@@ -22,12 +22,12 @@ const Home: NextPage = () => {
           content="React, Nextjs, Portfolio, Headbwoi, Tochukwu, Full stack"
         />
         <link rel="icon" href="/favicon.ico" />
-      
       </Head>
 
-
       <main className="relative font-pop">
-        <div className="text-3xl text-red-500">heyy</div>
+        <section className="hero relative" id="home">
+          <div className="container px-6 md:px-10 lg:px-5 xl:px-0"></div>
+        </section>
       </main>
 
       <footer></footer>
