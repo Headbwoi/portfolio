@@ -8,33 +8,57 @@ module.exports = {
     container: {
       center: true,
     },
-    fontFamily: {
-      'pop': ['Poppins', 'sans-serif'],
+    screens: {
+      sm: "375px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1200px",
     },
-    fontSize:{
-      'head-sm': ['2.5rem', {
-        lineHeight: '2rem',
-        letterSpacing: '-2%',
-        fontWeight: '700',
-      }],
-      'head-lg': ['4rem', {
-        lineHeight: '2rem',
-        letterSpacing: '-2%',
-        fontWeight: '700',
-      }],
-      'nav': ['1.5rem', {
-        fontWeight: '400',
-      }],
-      'nav-hover': ['1.5rem', {
-        fontWeight: '400',
-      }],
-      'sm': ['1.125rem', {
-        fontWeight: '400',
-      }],
-      'md': ['1.25rem', {
-        fontWeight: '400',
-      }],
-      },
+    fontFamily: {
+      pop: ["Poppins", "sans-serif"],
+    },
+    fontSize: {
+      "head-sm": [
+        "2.5rem",
+        {
+          lineHeight: "2rem",
+          letterSpacing: "-2%",
+          fontWeight: "700",
+        },
+      ],
+      "head-lg": [
+        "4rem",
+        {
+          lineHeight: "2rem",
+          letterSpacing: "-2%",
+          fontWeight: "700",
+        },
+      ],
+      nav: [
+        "1.5rem",
+        {
+          fontWeight: "400",
+        },
+      ],
+      "nav-hover": [
+        "1.5rem",
+        {
+          fontWeight: "400",
+        },
+      ],
+      sm: [
+        "1.125rem",
+        {
+          fontWeight: "400",
+        },
+      ],
+      md: [
+        "1.25rem",
+        {
+          fontWeight: "400",
+        },
+      ],
+    },
     extend: {},
   },
   plugins: [],
