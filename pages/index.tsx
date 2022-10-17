@@ -26,7 +26,10 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="relative font-pop bg-body">
-        <section className="hero relative h-[50rem] w-full " id="home">
+        <section
+          className="hero relative h-[50rem] w-full bg-[url('/bg-hero.png')]"
+          id="home"
+        >
           <div className="container px-6 md:px-10 lg:px-5 xl:px-0">
             <Header />
           </div>
