@@ -67,6 +67,12 @@ module.exports = {
           fontWeight: "400",
         },
       ],
+      lg: [
+        "1.5rem",
+        {
+          fontWeight: "400",
+        },
+      ],
     },
     extend: {},
   },

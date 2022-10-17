@@ -12,7 +12,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
   const linkArray = ["home", "about me", "portfolio", "experience", "contact"]
   return (
     <motion.div
-      className="lg:hidden absolute h-[50rem] w-full bg-veryDark inset-0"
+      className="lg:hidden absolute h-[50rem] w-full bg-veryDark inset-0 z-50"
       initial={{ opacity: 0 }}
       variants={menuVariant}
       whileInView={"show"}
