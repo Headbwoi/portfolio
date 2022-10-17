@@ -42,13 +42,7 @@ module.exports = {
         },
       ],
       nav: [
-        "1.5rem",
-        {
-          fontWeight: "400",
-        },
-      ],
-      "nav-hover": [
-        "1.5rem",
+        "1.125rem",
         {
           fontWeight: "400",
         },
@@ -56,7 +50,7 @@ module.exports = {
       sm: [
         "1.125rem",
         {
-          fontWeight: "400",
+          fontWeight: "600",
         },
       ],
       md: [

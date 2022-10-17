@@ -5,13 +5,11 @@ type Props = {
 
 const LinkWrapper = ({ name }: Props) => {
   return (
-    <div>
-      <Link href={`#${name.toLowerCase().replace(" ", "")}`}>
-        <a className="text-nav hover:text-nav-hover text-text capitalize px-[2px]">
-          {name}
-        </a>
-      </Link>
-    </div>
+    <Link href={`#${name.toLowerCase().replace(" ", "")}`}>
+      <a className="text-nav hover:text-cyan  text-text capitalize w-fit duration-300">
+        {name}
+      </a>
+    </Link>       
   )
 }
 
