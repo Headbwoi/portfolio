@@ -15,7 +15,7 @@ module.exports = {
       xl: "1200px",
     },
     fontFamily: {
-      pop: ["Poppins", "sans-serif"],
+      pop: [`"Poppins", "sans-serif"`],
     },
     fontSize: {
       "head-sm": [

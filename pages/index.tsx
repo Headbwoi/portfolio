@@ -25,7 +25,6 @@ const Home: NextPage = () => {
       
       </Head>
 
-      <header className="">hey im a header</header>
 
       <main className="relative font-pop">
         <div className="text-3xl text-red-500">heyy</div>
