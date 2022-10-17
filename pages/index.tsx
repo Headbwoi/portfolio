@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="relative font-pop">
+      <main className="relative font-pop bg-body">
         <section className="hero relative h-[50rem] w-full " id="home">
           <div className="container px-6 md:px-10 lg:px-5 xl:px-0"></div>
         </section>
