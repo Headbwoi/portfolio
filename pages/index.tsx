@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="relative font-pop">
-        <section className="hero relative" id="home">
+        <section className="hero relative h-[50rem] w-full " id="home">
           <div className="container px-6 md:px-10 lg:px-5 xl:px-0"></div>
         </section>
       </main>

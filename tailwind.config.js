@@ -14,6 +14,9 @@ module.exports = {
       lg: "1024px",
       xl: "1200px",
     },
+    colors: {
+      body: "hsl(217, 18%, 14%)",
+    },
     fontFamily: {
       pop: [`"Poppins", "sans-serif"`],
     },
