@@ -16,6 +16,7 @@ module.exports = {
     },
     colors: {
       body: "hsl(217, 18%, 14%)",
+      white: "hsl(0, 0%, 100%)"
     },
     fontFamily: {
       pop: [`"Poppins", "sans-serif"`],

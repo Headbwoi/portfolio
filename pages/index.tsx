@@ -1,5 +1,6 @@
 import type { NextPage } from "next"
 import Head from "next/head"
+import { Header } from "../components"
 
 const Home: NextPage = () => {
   return (
@@ -26,7 +27,9 @@ const Home: NextPage = () => {
 
       <main className="relative font-pop bg-body">
         <section className="hero relative h-[50rem] w-full " id="home">
-          <div className="container px-6 md:px-10 lg:px-5 xl:px-0"></div>
+          <div className="container px-6 md:px-10 lg:px-5 xl:px-0">
+            <Header />
+          </div>
         </section>
       </main>
 
