@@ -1,8 +1,11 @@
 import Image from "next/image"
-import Desktop from "../Navigation/Desktop"
+import { useState } from "react"
+import { Desktop, Mobile } from "../Navigation/index"
+
 import Button from "../Utils/Button"
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14">
       <nav className=" h-14 md:h-16 lg:h-[6.25rem] w-full flex items-center justify-between">
@@ -16,6 +19,7 @@ const Header = () => {
           <Desktop />
         </div>
 
+        {/* button */}
         <div className="cta hidden lg:flex">
           <Button />
         </div>
@@ -29,6 +33,9 @@ const Header = () => {
             aria-label="open mobile menu"
           />
         </div>
+
+        {/* mobile menu */}
+        {isOpen && <Mobile />}
       </nav>
     </header>
   )
