@@ -1,6 +1,9 @@
 import Image from "next/image"
 import Button from "../Utils/Button"
 import LinkWrapper from "./LinkWrapper"
+import { motion } from "framer-motion"
+import { menuVariant, navItem } from "../../variants/menuVariant"
+
 type Props = {
   handleMenuToggle: () => void
 }
@@ -8,7 +11,13 @@ type Props = {
 const Mobile = ({ handleMenuToggle }: Props) => {
   const linkArray = ["home", "about me", "portfolio", "experience", "contact"]
   return (
-    <div className="lg:hidden absolute h-[50rem] w-full bg-veryDark inset-0">
+    <motion.div
+      className="lg:hidden absolute h-[50rem] w-full bg-veryDark inset-0"
+      initial={{ opacity: 0 }}
+      variants={menuVariant}
+      whileInView={"show"}
+      exit={"exit"}
+    >
       <div className="px-6 md:px-10 pt-3 md:pt-8 lg:pt-0 w-full mb-14">
         <header className="flex items-center justify-between mb-[5.25rem]">
           {/* icon */}
@@ -31,17 +40,22 @@ const Mobile = ({ handleMenuToggle }: Props) => {
         </header>
 
         {/* links */}
-        <div className="flex flex-col items-center space-y-10 mb-[5.25rem]">
+        <motion.div
+          className="flex flex-col items-center space-y-10 mb-[5.25rem]"
+          initial={{ opacity: 0 }}
+          whileInView={navItem.show}
+          exit={navItem.exit}
+        >
           {linkArray.map((item, index) => (
             <LinkWrapper key={index} name={item} />
           ))}
-        </div>
+        </motion.div>
         <div className="w-48 mx-auto">
           <Button />
         </div>
       </div>
       Mobile
-    </div>
+    </motion.div>
   )
 }
 

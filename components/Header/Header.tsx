@@ -2,6 +2,7 @@ import Image from "next/image"
 import { useState } from "react"
 import { Desktop, Mobile } from "../Navigation/index"
 import Button from "../Utils/Button"
+import { AnimatePresence } from "framer-motion"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -42,7 +43,13 @@ const Header = () => {
         </div>
 
         {/* mobile menu */}
-        {isOpen && <Mobile handleMenuToggle={handleMenuToggle} />}
+        <AnimatePresence
+          initial={false}
+          mode={"wait"}
+          onExitComplete={() => null}
+        >
+          {isOpen && <Mobile handleMenuToggle={handleMenuToggle} />}
+        </AnimatePresence>
       </nav>
     </header>
   )
