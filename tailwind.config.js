@@ -18,6 +18,8 @@ module.exports = {
       body: "hsl(217, 18%, 14%)",
       white: "hsl(0, 0%, 100%)",
       text: "hsl(0, 0%, 93%)",
+      buttonBg: "hsl(217, 10%, 25%)",
+      cyan: "hsl(166, 100%, 34%)",
     },
     fontFamily: {
       pop: [`"Poppins", "sans-serif"`],
