@@ -11,7 +11,9 @@ const Header = () => {
         </div>
 
         {/* desktop link */}
-        <Desktop />
+        <div className="hidden lg:flex">
+          <Desktop />
+        </div>
 
         {/* hamburger */}
         <div className="lg:hidden w-11 h-7 relative">
