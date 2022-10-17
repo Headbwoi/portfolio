@@ -5,7 +5,10 @@ import { Desktop, Mobile } from "../Navigation/index"
 import Button from "../Utils/Button"
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
+  const handleMenuToggle = () => {
+    isOpen ? setIsOpen((prev) => !prev) : setIsOpen((prev) => !prev)
+  }
   return (
     <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14">
       <nav className=" h-14 md:h-16 lg:h-[6.25rem] w-full flex items-center justify-between">
@@ -25,7 +28,7 @@ const Header = () => {
         </div>
 
         {/* hamburger */}
-        <div className="lg:hidden w-11 h-7 relative">
+        <div className="lg:hidden w-11 h-7 relative" onClick={handleMenuToggle}>
           <Image
             src={"/icons/hamburger.svg"}
             layout="fill"
@@ -35,7 +38,7 @@ const Header = () => {
         </div>
 
         {/* mobile menu */}
-        {isOpen && <Mobile />}
+        {isOpen && <Mobile handleMenuToggle={handleMenuToggle} />}
       </nav>
     </header>
   )

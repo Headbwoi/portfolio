@@ -20,6 +20,7 @@ module.exports = {
       text: "hsl(0, 0%, 93%)",
       buttonBg: "hsl(217, 10%, 25%)",
       cyan: "hsl(166, 100%, 34%)",
+      veryDark: "hsl(0, 0%, 0%)",
     },
     fontFamily: {
       pop: [`"Poppins", "sans-serif"`],
