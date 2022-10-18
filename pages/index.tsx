@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
       <main className="relative font-pop bg-body overflow-x-hidden">
         <section
-          className="hero relative h-[50rem] w-full bg-[url('/bg-hero.png')] font-pop"
+          className="hero relative min-h-screen w-full bg-[url('/bg-hero.png')] font-pop"
           id="home"
         >
           <div className="container px-6 md:px-10 lg:px-5 xl:px-0">
