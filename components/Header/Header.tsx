@@ -28,7 +28,7 @@ const Header = () => {
 
         {/* desktop link */}
         <div className="hidden lg:flex">
-          <Desktop />
+          <Desktop handleMenuToggle={handleMenuToggle} />
         </div>
 
         {/* button */}
