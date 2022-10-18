@@ -12,42 +12,39 @@ const Mobile = ({ handleMenuToggle }: Props) => {
   const linkArray = ["home", "about me", "portfolio", "experience", "contact"]
   return (
     <motion.div
-      className="lg:hidden absolute h-[50rem] w-full bg-veryDark inset-0 z-50"
+      className="lg:hidden absolute h-screen overflow-hidden w-3/4 top-0 right-0 bg-veryDark z-50"
       initial={{ opacity: 0 }}
       variants={menuVariant}
       whileInView={"show"}
       exit={"exit"}
     >
-      <div className="px-6 md:px-10 pt-3 md:pt-8 lg:pt-0 w-full mb-14">
-        <header className="flex items-center justify-between mb-[5.25rem]">
-          {/* icon */}
-          <div className="w-[10.0625rem] h-[5.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative">
-            <Image src={"/icons/logo.svg"} layout="fill" alt="logo" priority />
-          </div>
-
+      <div className="px-6 md:px-10 w-full">
+        <div className="absolute right-6 top-9 ">
           {/* hamburger */}
-          <div
-            className="lg:hidden w-11 h-7 relative"
-            onClick={handleMenuToggle}
-          >
+          <div className="lg:hidden" onClick={handleMenuToggle}>
             <Image
               src={"/icons/close.svg"}
-              layout="fill"
               alt="Open Menu Icon"
               aria-label="open mobile menu"
+              width={44}
+              height={28}
             />
           </div>
-        </header>
+        </div>
 
         {/* links */}
         <motion.div
-          className="flex flex-col items-center space-y-10 mb-[5.25rem]"
+          className="flex flex-col items-center space-y-10 mb-[5.25rem] mt-[8.25rem]"
           initial={{ opacity: 0 }}
           whileInView={navItem.show}
           exit={navItem.exit}
         >
           {linkArray.map((item, index) => (
-            <LinkWrapper key={index} name={item} />
+            <LinkWrapper
+              key={index}
+              name={item}
+              handleMenuToggle={handleMenuToggle}
+            />
           ))}
         </motion.div>
         <div className="w-48 mx-auto">

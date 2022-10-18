@@ -8,6 +8,10 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   const handleMenuToggle = () => {
     isOpen ? setIsOpen((prev) => !prev) : setIsOpen((prev) => !prev)
+    const body = document.querySelector("body")
+    isOpen == true
+      ? body?.classList.remove("overflow-hidden")
+      : body?.classList.add("overflow-hidden")
   }
   return (
     <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14">
