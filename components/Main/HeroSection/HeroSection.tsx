@@ -5,11 +5,11 @@ const HeroSection = () => {
         HELLO
       </p>
 
-      <div className="flex items-center justify-center space-x-20 flex-col lg:flex-row">
+      <div className="flex items-center justify-center flex-col">
         {/* text */}
-        <div className="relative w-full pb-8 lg:pb-0 lg:w-[28.375rem]">
+        <div className="relative w-full pb-8 lg:pb-0 lg:w-[48.375rem] mx-auto">
           {/* name */}
-          <div className=" font-bold text-white text-head-sm lg:text-head-lg font-pop flex justify-center space-x-6 pb-4 md:pb-7 mb-4 md:mb-5 bg-body/14 text-center">
+          <div className=" font-bold text-white text-head-sm lg:text-head-lg font-pop flex justify-center space-x-8 pb-7 mb-10 md:mb-14 bg-body/14 text-center">
             <p className="font-pop">{"👋I'm"}</p>
             <p className="font-pop text-cyan relative w-fit before:absolute before:-bottom-6 before:left-0 before:w-full before:h-1 before:block before:bg-cyan before:rounded-full ">
               John
@@ -17,9 +17,10 @@ const HeroSection = () => {
           </div>
           {/* brief about */}
           <div className="w-full text-center">
-            <p className="text-white text-lg md:text-lg">
-              Full Stack Engineer, UI/UX designer, MERN / T3 stack developer,
-              Automation Engineer
+            <p className="text-white text-lg md:text-head-sm lg:leading-[3rem]">
+              A Full Stack Engineer ,{" "}
+              <span className="text-cyan">MERN / T3 Stack Developer</span> ,
+              UI/UX Designer
             </p>
           </div>
         </div>
