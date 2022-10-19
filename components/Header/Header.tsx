@@ -15,10 +15,10 @@ const Header = () => {
       : body?.classList.add("overflow-hidden")
   }
   return (
-    <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14">
+    <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14 bg-body">
       <nav className=" h-14 md:h-16 lg:h-[6.25rem] w-full flex items-center justify-between">
         {/* icon */}
-        <Link href={"/"} >
+        <Link href={"/"}>
           <div className="w-[10.0625rem] h-[5.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative cursor-pointer">
             <Image
               src={"/icons/logo.svg"}
