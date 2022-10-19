@@ -1,17 +1,10 @@
 import LinkWrapper from "./LinkWrapper"
-type Props = {
-  handleMenuToggle: () => void
-}
-const Desktop = ({ handleMenuToggle }: Props) => {
+const Desktop = () => {
   const linkArray = ["home", "about me", "portfolio", "experience", "contact"]
   return (
     <div className="flex items-center space-x-8 h-[5.375rem] min-w-[33.0625rem]">
       {linkArray.map((item, index) => (
-        <LinkWrapper
-          key={index}
-          name={item}
-          handleMenuToggle={handleMenuToggle}
-        />
+        <LinkWrapper key={index} name={item} />
       ))}
     </div>
   )

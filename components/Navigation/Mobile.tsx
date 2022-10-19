@@ -1,6 +1,6 @@
 import Image from "next/image"
+import Link from "next/link"
 import Button from "../Utils/Button"
-import LinkWrapper from "./LinkWrapper"
 import { motion } from "framer-motion"
 import { menuVariant, navItem } from "../../variants/menuVariant"
 
@@ -63,3 +63,23 @@ const Mobile = ({ handleMenuToggle }: Props) => {
 }
 
 export default Mobile
+
+type linkProp = {
+  name: string
+  handleMenuToggle: () => void
+}
+
+const LinkWrapper = ({ name, handleMenuToggle }: linkProp) => {
+  return (
+    <Link
+      href={`${name == "home" ? "/" : name.toLowerCase().replace(" ", "")}`}
+    >
+      <a
+        className="text-navlg lg:text-nav  hover:text-cyan  text-text capitalize w-fit duration-300"
+        onClick={handleMenuToggle}
+      >
+        {name}
+      </a>
+    </Link>
+  )
+}

@@ -1,17 +1,15 @@
 import Link from "next/link"
 type Props = {
   name: string
-  handleMenuToggle: () => void
 }
 
-const LinkWrapper = ({ name, handleMenuToggle }: Props) => {
+const LinkWrapper = ({ name }: Props) => {
   return (
     <Link
       href={`${name == "home" ? "/" : name.toLowerCase().replace(" ", "")}`}
     >
       <a
         className="text-navlg lg:text-nav  hover:text-cyan  text-text capitalize w-fit duration-300"
-        onClick={handleMenuToggle}
       >
         {name}
       </a>

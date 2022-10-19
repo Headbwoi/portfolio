@@ -1,7 +1,9 @@
 const HeroSection = () => {
   return (
-    <div className="w-full">
-      <p className=" text-[6rem] lg:text-[12rem] font-bold text-gray">HELLO</p>
+    <div className="w-full pt-10">
+      <p className=" text-[6rem] lg:text-[12rem] font-bold text-gray select-none">
+        HELLO
+      </p>
 
       <div className="flex items-center justify-center flex-col">
         {/* text */}
