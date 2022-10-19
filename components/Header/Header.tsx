@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
 import { Desktop, Mobile } from "../Navigation/index"
 import Button from "../Utils/Button"
@@ -17,14 +18,16 @@ const Header = () => {
     <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14">
       <nav className=" h-14 md:h-16 lg:h-[6.25rem] w-full flex items-center justify-between">
         {/* icon */}
-        <div className="w-[10.0625rem] h-[5.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative">
-          <Image
-            src={"/icons/logo.svg"}
-            layout="fill"
-            alt="logo"
-            priority={true}
-          />
-        </div>
+        <Link href={"/"} >
+          <div className="w-[10.0625rem] h-[5.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative cursor-pointer">
+            <Image
+              src={"/icons/logo.svg"}
+              layout="fill"
+              alt="logo"
+              priority={true}
+            />
+          </div>
+        </Link>
 
         {/* desktop link */}
         <div className="hidden lg:flex">
