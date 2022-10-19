@@ -15,11 +15,11 @@ const Header = () => {
       : body?.classList.add("overflow-hidden")
   }
   return (
-    <header className="pt-6 md:pt-8 lg:pt-0 w-full mb-14 bg-body">
-      <nav className=" h-14 md:h-16 lg:h-[6.25rem] w-full flex items-center justify-between">
+    <header className="py-4 md:pt-5 lg:pt-0 w-full bg-body -mb-[1px]">
+      <nav className=" h-10 md:h-16 lg:h-[6.25rem] container w-full flex items-center justify-between px-6 md:px-10 lg:px-5 xl:px-0">
         {/* icon */}
         <Link href={"/"}>
-          <div className="w-[10.0625rem] h-[5.25rem] lg:w-[13.5625rem] lg:h-[6.25rem] relative cursor-pointer">
+          <div className="w-[9.0625rem] h-[4.25rem] lg:w-[12.5625rem] lg:h-[5.25rem] relative cursor-pointer">
             <Image
               src={"/icons/logo.svg"}
               layout="fill"
@@ -40,7 +40,7 @@ const Header = () => {
         </div>
 
         {/* hamburger */}
-        <div className="lg:hidden w-11 h-7 relative" onClick={handleMenuToggle}>
+        <div className="lg:hidden w-10 h-5 relative" onClick={handleMenuToggle}>
           <Image
             src={"/icons/hamburger.svg"}
             layout="fill"
