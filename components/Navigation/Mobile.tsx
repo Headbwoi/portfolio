@@ -41,7 +41,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
 
         {/* links */}
         <motion.div
-          className="flex flex-col items-center space-y-10 mb-[5.25rem] mt-[8.25rem]"
+          className="flex flex-col items-center space-y-7 mb-[5.25rem] mt-[8.25rem]"
           initial={{ opacity: 0 }}
           whileInView={navItem.show}
           exit={navItem.exit}
@@ -54,7 +54,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
             />
           ))}
         </motion.div>
-        <div className="w-48 mx-auto">
+        <div className="flex justify-center ">
           <Button />
         </div>
       </div>
