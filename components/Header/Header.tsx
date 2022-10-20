@@ -10,14 +10,12 @@ const Header = () => {
   const handleMenuToggle = () => {
     isOpen === true ? setIsOpen(!isOpen) : setIsOpen(!isOpen)
   }
-  console.log(isOpen)
   useEffect(() => {
     const body = document.querySelector("body")
 
     isOpen === true
       ? body?.classList.add("no-scroll")
       : body?.classList.remove("no-scroll")
-    console.log("ran")
   }, [isOpen])
 
   return (
