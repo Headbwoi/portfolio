@@ -9,9 +9,9 @@ module.exports = {
       center: true,
     },
     screens: {
-      sm: "375px",
+      sm: "375.1px",
       md: "768px",
-      lg: "1024px",
+      lg: "1023.5px",
       xl: "1200px",
     },
     colors: {

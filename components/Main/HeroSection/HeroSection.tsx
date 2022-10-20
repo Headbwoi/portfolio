@@ -1,13 +1,13 @@
 const HeroSection = () => {
   return (
-    <div className="w-full pt-14 lg:mt-0">
-      <p className=" text-[6rem] lg:text-[12rem] font-bold text-gray select-none">
+    <div className="w-full pt-14 lg:pt-0 flex items-center justify-start sm:justify-center lg:justify-start flex-col min-h-[30rem] md:min-h-[40rem] xl:min-h-[40rem]">
+      <p className=" text-[6rem] md:text-[8rem] lg:text-[10rem] font-bold text-gray select-none">
         HELLO
       </p>
 
       <div className="flex items-center justify-center flex-col">
         {/* text */}
-        <div className="relative w-full pb-8 lg:pb-0 lg:w-[48.375rem] mx-auto">
+        <div className="relative w-full pb-8 lg:pb-4 lg:w-[48.375rem] mx-auto">
           {/* name */}
           <div className=" font-bold text-white text-head-sm md:text-head-lg font-pop flex justify-center space-x-8 pb-7 mb-10 md:mb-14 bg-body/14 text-center">
             <p className="font-pop">{"👋I'm"}</p>
@@ -26,8 +26,6 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-
-        <div className="w-14 h-14 hidden lg:flex"></div>
       </div>
     </div>
   )

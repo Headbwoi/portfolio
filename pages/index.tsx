@@ -1,6 +1,6 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import { Header, HeroSection } from "../components"
+import { HeroSection } from "../components"
 
 const Home: NextPage = () => {
   return (
@@ -24,11 +24,12 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="relative font-pop bg-body overflow-x-hidden">
-        <section className="hero relative min-h-screen  w-full bg-[url('/bg-hero.png')] font-pop">
-          <div className="container px-6 md:px-10 lg:px-5 xl:px-0">
+        <section className="hero relative h-adj w-full bg-[url('/bg-hero.png')] font-pop">
+          <div className="container px-6 md:px-10 lg:px-5 xl:px-0 relative">
             {/* hero items' */}
             <HeroSection />
           </div>
+          <div className="w-full h-20 absolute bottom-0 left-1/2 -translate-x-1/2 border border-cyan"></div>
         </section>
       </main>
 

@@ -5,3 +5,11 @@
 .no-scroll {
   overflow: hidden;
 }
+.h-adj {
+  min-height: calc(100vh - 72px);
+}
+@media (min-width: 1020px) {
+  .h-adj {
+    min-height: calc(100vh - 86px);
+  }
+}
