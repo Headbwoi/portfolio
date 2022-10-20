@@ -76,7 +76,7 @@ const LinkWrapper = ({ name, handleMenuToggle }: linkProp) => {
       href={`${name == "home" ? "/" : name.toLowerCase().replace(" ", "")}`}
     >
       <a
-        className="text-navlg lg:text-nav  hover:text-cyan  text-text capitalize w-fit duration-300"
+        className="text-navlg lg:text-nav  hover:text-cyan  text-text capitalize w-fit duration-300 flex items-center space-x-4"
         onClick={handleMenuToggle}
       >
         {name}
