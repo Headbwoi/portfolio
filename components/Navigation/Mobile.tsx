@@ -12,6 +12,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
   const linkArray = [
     "home",
     "about me",
+    "skills",
     "portfolio",
     "experiences",
     "contact me",
