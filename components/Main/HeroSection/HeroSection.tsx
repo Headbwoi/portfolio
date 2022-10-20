@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="w-full pt-14 lg:pt-0 flex items-center justify-start sm:justify-center lg:justify-start flex-col min-h-[30rem] md:min-h-[40rem] xl:min-h-[40rem]">
+    <div className="w-full pt-[20%] sm:pt-[40%] lg:pt-0 flex items-center justify-start sm:justify-center lg:justify-start flex-col min-h-[30rem] md:min-h-[40rem] xl:min-h-[40rem]">
       <p className=" text-[6rem] md:text-[8rem] lg:text-[10rem] font-bold text-gray select-none">
         HELLO
       </p>

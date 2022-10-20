@@ -29,11 +29,12 @@ const Home: NextPage = () => {
             {/* hero items' */}
             <HeroSection />
           </div>
-          <div className="w-full h-20 absolute bottom-0 left-1/2 -translate-x-1/2 border border-cyan"></div>
         </section>
       </main>
 
-      <footer></footer>
+      <footer className="relative">
+        <div className="w-full h-20 absolute bottom-0 left-1/2 -translate-x-1/2 border border-cyan"></div>
+      </footer>
     </>
   )
 }
