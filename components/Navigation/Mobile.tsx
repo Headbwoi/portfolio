@@ -13,7 +13,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
     "home",
     "about me",
     "skills",
-    "portfolio",
+    "projects",
     "experiences",
     "contact me",
   ]

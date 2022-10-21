@@ -40,7 +40,13 @@ const Home: NextPage = () => {
               <AboutIcon />
             </HeroNav>
             {/* projects */}
+            <HeroNav name="projects">
+              <AboutIcon />
+            </HeroNav>
             {/* contact */}
+            <HeroNav name="contact me">
+              <AboutIcon />
+            </HeroNav>
           </div>
         </div>
       </footer>

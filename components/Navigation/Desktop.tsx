@@ -4,7 +4,7 @@ const Desktop = () => {
     "home",
     "about me",
     "skills",
-    "portfolio",
+    "projects",
     "experiences",
     "contact",
   ]
