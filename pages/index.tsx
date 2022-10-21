@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="relative">
-        <div className="w-full h-20 absolute bottom-0 left-1/2 -translate-x-1/2 border border-cyan">
+        <div className="w-full h-20 md:h-24 absolute bottom-0 left-1/2 -translate-x-1/2 border border-cyan">
           <div className="flex items-center justify-center px-6 space-x-10 md:space-x-16 lg:space-x-20">
             {/* about */}
             <HeroNav name="about me">
