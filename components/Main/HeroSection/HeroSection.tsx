@@ -7,7 +7,7 @@ const HeroSection = () => {
 
       <div className="flex items-center justify-center flex-col">
         {/* text */}
-        <div className="relative w-full pb-8 lg:pb-4 lg:w-[48.375rem] mx-auto">
+        <div className="relative w-full pb-8 lg:pb-40 lg:w-[48.375rem] mx-auto">
           {/* name */}
           <div className=" font-bold text-white text-head-sm md:text-head-lg font-pop flex justify-center space-x-8 pb-7 mb-10 md:mb-14 bg-body/14 text-center">
             <p className="font-pop">{"👋I'm"}</p>
