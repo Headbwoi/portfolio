@@ -1,6 +1,6 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import { HeroSection } from "../components"
+import { HeroNav, HeroSection, AboutIcon } from "../components"
 
 const Home: NextPage = () => {
   return (
@@ -33,7 +33,16 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="relative">
-        <div className="w-full h-20 absolute bottom-0 left-1/2 -translate-x-1/2 border border-cyan"></div>
+        <div className="w-full h-20 absolute bottom-0 left-1/2 -translate-x-1/2 border border-cyan">
+          <div className="flex items-center justify-center px-6">
+            {/* about */}
+            <HeroNav name="about me">
+              <AboutIcon />
+            </HeroNav>
+            {/* projects */}
+            {/* contact */}
+          </div>
+        </div>
       </footer>
     </>
   )
