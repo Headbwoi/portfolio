@@ -25,7 +25,7 @@ const About: NextPage = () => {
               </div>
               {/* images/illustrsions */}
               <div className="w-full h-96 relative">
-                <Image src={"/copy.jpg"} alt="moi" layout="fill" />
+                <Image src={"/me.jpg"} alt="moi" layout="fill" />
               </div>
             </div>
           </div>
