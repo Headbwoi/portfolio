@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 .h-adj {
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 70px);
 }
 @media (min-width: 1020px) {
   .h-adj {
