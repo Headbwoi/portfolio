@@ -26,55 +26,56 @@ module.exports = {
     fontFamily: {
       pop: [`"Poppins", "sans-serif"`],
     },
-    fontSize: {
-      "head-sm": [
-        "2.5rem",
-        {
-          lineHeight: "2rem",
-          letterSpacing: "-2%",
-          fontWeight: "700",
-        },
-      ],
-      "head-lg": [
-        "4rem",
-        {
-          lineHeight: "2rem",
-          letterSpacing: "-2%",
-          fontWeight: "700",
-        },
-      ],
-      nav: [
-        "1.25rem",
-        {
-          fontWeight: "400",
-        },
-      ],
-      navlg: [
-        "1.5rem",
-        {
-          fontWeight: "400",
-        },
-      ],
-      sm: [
-        "1.125rem",
-        {
-          fontWeight: "600",
-        },
-      ],
-      md: [
-        "1.25rem",
-        {
-          fontWeight: "400",
-        },
-      ],
-      lg: [
-        "1.5rem",
-        {
-          fontWeight: "400",
-        },
-      ],
+    extend: {
+      fontSize: {
+        "head-sm": [
+          "2.5rem",
+          {
+            lineHeight: "2rem",
+            letterSpacing: "-2%",
+            fontWeight: "700",
+          },
+        ],
+        "head-lg": [
+          "4rem",
+          {
+            lineHeight: "2rem",
+            letterSpacing: "-2%",
+            fontWeight: "700",
+          },
+        ],
+        nav: [
+          "1.25rem",
+          {
+            fontWeight: "400",
+          },
+        ],
+        navlg: [
+          "1.5rem",
+          {
+            fontWeight: "400",
+          },
+        ],
+        sm: [
+          "1.125rem",
+          {
+            fontWeight: "600",
+          },
+        ],
+        md: [
+          "1.25rem",
+          {
+            fontWeight: "400",
+          },
+        ],
+        lg: [
+          "1.5rem",
+          {
+            fontWeight: "400",
+          },
+        ],
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
