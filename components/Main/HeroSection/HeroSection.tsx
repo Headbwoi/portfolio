@@ -32,7 +32,7 @@ const HeroSection = () => {
           </div>
           <div>
             <button
-              className={`rounded-md w-[7rem] h-11 bg-buttonBg flex items-center justify-center hover:bg-cyan duration-300 group cursor-pointer mx-auto mt-[10%] sm:mt-[20%]`}
+              className={`rounded-md w-[7rem] h-11 bg-buttonBg flex items-center justify-center hover:bg-cyan duration-300 group cursor-pointer mx-auto mt-[10%] sm:mt-[20%] lg:mt-[10%]`}
             >
               <Link href={`/contactme`}>
                 <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold">
