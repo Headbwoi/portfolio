@@ -42,7 +42,7 @@ const About: NextPage = () => {
               {/* images/illustrsions */}
               <div className="lg:flex-[40%] w-full relative">
                 <div className="w-full h-96 lg:h-[40rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20">
-                  <Image src={"/me.png"} alt="moi" layout="fill" />
+                  <Image src={"/me_black.png"} alt="moi" layout="fill" />
                 </div>
                 <div className="absolute h-96 lg:h-[40rem] w-full top-5 left-5 border-2 border-body z-10 bg-buttonBg rounded-md"></div>
               </div>
