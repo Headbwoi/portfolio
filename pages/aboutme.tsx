@@ -28,10 +28,13 @@ const About: NextPage = () => {
                   A frontend developer, backend developer, full stack developer
                   working with Tailwindcss, reactjs/ Nextjs, Nodejs and
                   ExpressJs, MongoDb with a little dabbing into PostgreSql and
-                  databases in general. I love solving problems as you will see
-                  <Link href={"/projects"}>
-                    <a className="text-cyan px-2 hover:text-text">here.</a>
-                  </Link>
+                  databases in general.{" "}
+                  <p className="py-2">
+                    I love solving problems as you will see
+                    <Link href={"/projects"}>
+                      <a className="text-cyan px-2 hover:text-text">here.</a>
+                    </Link>
+                  </p>
                   I am a very valuable person to any team as i bring my unique
                   experiences to the team. I am the guy that brings the cheer
                   into a bad situation with a sight for solving problems
