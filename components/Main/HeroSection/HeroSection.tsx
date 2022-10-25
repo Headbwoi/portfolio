@@ -5,15 +5,18 @@ const HeroSection = () => {
         HELLO
       </p>
 
-      <div className="flex items-center justify-center flex-col">
+      <div className="flex items-center justify-center flex-col w-full">
         {/* text */}
         <div className="relative w-full pb-8 lg:pb-40 lg:w-[48.375rem] mx-auto">
           {/* name */}
-          <div className=" font-bold text-white text-head-sm md:text-head-lg font-pop flex justify-center space-x-8 pb-7 mb-10 md:mb-14 bg-body/14 text-center">
-            <p className="font-pop">{"👋I'm"}</p>
-            <p className="font-pop text-cyan relative w-fit before:absolute before:-bottom-6 before:left-0 before:w-full before:h-1 before:block before:bg-cyan before:rounded-full ">
-              John
-            </p>
+          <div className=" font-bold text-cyan font-pop md:text-center w-full">
+            <p className="font-pop text-3xl mb-4 md:mb-6">{"👋I'm"}</p>
+            <div className="flex items-center md:justify-center space-x-5 pb-7 mb-10 md:mb-14 font-pop text-text text-head-sm md:text-head-lg">
+              <p className=" w-fit">Tochukwu</p>
+              <p className="relative text-cyan before:absolute before:-bottom-4 before:left-0 before:w-full before:h-1 before:block before:bg-cyan before:rounded-full">
+                John
+              </p>
+            </div>
           </div>
           {/* brief about */}
           <div className="w-full text-center">
