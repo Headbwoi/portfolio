@@ -1,6 +1,5 @@
 import Link from "next/link"
-import ContactIcon from "../icons/ContactIcon"
-import Download from "../icons/Download"
+import { ContactIcon, Download } from "../icons"
 
 const HeroSection = () => {
   return (
