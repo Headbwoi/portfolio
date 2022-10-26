@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { Desktop, Mobile } from "../Navigation/index"
-import Button from "../Utils/Button"
 import { AnimatePresence } from "framer-motion"
 import { Download } from "../Main/icons"
 

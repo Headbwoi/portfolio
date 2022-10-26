@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import Button from "../Utils/Button"
 import { motion } from "framer-motion"
 import { menuVariant, navItem } from "../../variants/menuVariant"
 import { Download } from "../Main/icons"
