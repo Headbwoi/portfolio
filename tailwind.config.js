@@ -11,8 +11,7 @@ module.exports = {
     screens: {
       sm: "375.1px",
       md: "768px",
-      lg: "1023.5px",
-      xl: "1200px",
+      lg: "1000px",
     },
     colors: {
       body: "hsl(217, 18%, 14%)",

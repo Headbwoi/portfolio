@@ -18,7 +18,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
   ]
   return (
     <motion.div
-      className="lg:hidden absolute h-screen overflow-hidden w-3/4 top-0 right-0 bg-veryDark z-50"
+      className="md:hidden absolute h-screen overflow-hidden w-3/4 top-0 right-0 bg-veryDark z-50"
       initial={{ opacity: 0 }}
       variants={menuVariant}
       whileInView={"show"}

@@ -9,12 +9,12 @@ const About: NextPage = () => {
       <HeadSection title="Portfolio - About Me" page="About" />
       <main className="relative font-pop bg-body overflow-x-hidden py-16 ">
         <section className="hero relative min-h-screen w-full font-pop">
-          <div className="container px-6 md:px-10 lg:px-5 xl:px-0">
+          <div className="container px-6 md:px-10 lg:px-0">
             {/* about items' */}
             <div className="flex items-center justify-center flex-col lg:flex-row  lg:space-x-10 ">
               {/* text */}
               <div className="text lg:flex-[45%]">
-                <div className=" font-bold text-white text-head-sm md:text-head-lg font-pop flex  flex-col items-start space-y-6 lg:space-y-10 pb-7 mb-10 md:mb-14 bg-body/14 text-center">
+                <div className=" font-bold text-white text-head-sm md:text-head-lg font-pop flex  flex-col items-start space-y-6 lg:space-y-10 pb-7 mb-10 md:mb-14  text-center">
                   <p className="font-pop">{"Hi👋, I'm"}</p>
 
                   <p className="font-pop text-cyan relative w-fit before:absolute before:-bottom-6 before:left-0 before:w-full before:h-1 before:block before:bg-cyan before:rounded-full ">
