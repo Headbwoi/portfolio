@@ -8,12 +8,7 @@ const Button = () => {
         DOWNLOAD CV
       </span>
       <div className="w-3 h-3 relative">
-        <Image
-          src={"/icons/download.svg"}
-          layout="fill"
-          alt="download cv"
-          aria-label="download my cv"
-        />
+        
       </div>
     </button>
   )

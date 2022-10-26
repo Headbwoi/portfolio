@@ -3,6 +3,7 @@ import Link from "next/link"
 import Button from "../Utils/Button"
 import { motion } from "framer-motion"
 import { menuVariant, navItem } from "../../variants/menuVariant"
+import { Download } from "../Main/icons"
 
 type Props = {
   handleMenuToggle: () => void
@@ -54,7 +55,16 @@ const Mobile = ({ handleMenuToggle }: Props) => {
           ))}
         </motion.div>
         <div className="flex justify-center ">
-          <Button />
+          <button
+            className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
+          >
+            <Link href={`/contactme`}>
+              <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
+                resume
+              </span>
+            </Link>
+            <Download height="4" width="4" />
+          </button>
         </div>
       </div>
       Mobile

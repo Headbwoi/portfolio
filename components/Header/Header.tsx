@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { Desktop, Mobile } from "../Navigation/index"
 import Button from "../Utils/Button"
 import { AnimatePresence } from "framer-motion"
+import { Download } from "../Main/icons"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -40,7 +41,16 @@ const Header = () => {
 
         {/* button */}
         <div className="cta hidden lg:flex">
-          <Button />
+          <button
+            className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
+          >
+            <Link href={`/contactme`}>
+              <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
+                resume
+              </span>
+            </Link>
+            <Download height="4" width="4" />
+          </button>
         </div>
 
         {/* hamburger */}
