@@ -9,7 +9,7 @@ module.exports = {
       center: true,
     },
     screens: {
-      sm: "375.1px",
+      sm: "375px",
       md: "768px",
       lg: "1000px",
     },

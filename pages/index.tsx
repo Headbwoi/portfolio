@@ -26,24 +26,23 @@ const Home: NextPage = () => {
         </section>
       </main>
 
-      <footer className="relative z-30">
+      {/* <footer className="relative z-30">
         <div className="w-full h-20 md:h-24 absolute bottom-0 left-1/2 -translate-x-1/2 grid place-items-center">
           <div className="flex items-center justify-center px-6 space-x-10 md:space-x-16 lg:space-x-20">
-            {/* about */}
-            {/* <HeroNav name="about me">
+           
+            <HeroNav name="about me">
               <AboutIcon />
-            </HeroNav> */}
-            {/* projects */}
-            {/* <HeroNav name="projects">
+            </HeroNav>
+            
+            <HeroNav name="projects">
               <ProjectIcon />
-            </HeroNav> */}
-            {/* contact */}
-            {/* <HeroNav name="contact me">
+            </HeroNav>
+            <HeroNav name="contact me">
               <ContactIcon />
-            </HeroNav> */}
+            </HeroNav>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   )
 }

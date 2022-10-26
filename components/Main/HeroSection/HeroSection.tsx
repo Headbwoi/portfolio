@@ -36,26 +36,34 @@ const HeroSection = () => {
               <span className="text-cyan bold">XeuxDev</span>.
             </p>
           </div>
-          <div className="flex items-center justify-between mx-auto mt-[10%] sm:mt-[20%] lg:mt-[10%]">
+          <div className="flex items-center justify-center space-x-3 md:space-x-5 mt-[20%] lg:mt-[10%] w-full">
             <button
-              className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
+              className={`flex items-center justify-center rounded-md px-3 sm:px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
             >
               <Link href={`/contactme`}>
-                <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold">
-                  Hire Me
-                </span>
+                <div className="flex w-full h-full items-center">
+                  <span className="text-white text-sm mr-3 group:hover:mr-1 font-semibold capitalize">
+                    hire me
+                  </span>
+                  <div className="h-4 w-4">
+                    <ContactIcon height="4" width="4" />
+                  </div>
+                </div>
               </Link>
-              <ContactIcon height="4" width="4" />
             </button>
             <button
-              className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
+              className={`flex items-center justify-center rounded-md px-3 sm:px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
             >
               <Link href={`/contactme`}>
-                <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
-                  view resume
-                </span>
+                <div className="flex w-full h-full items-center">
+                  <span className="text-white text-sm mr-3 group:hover:mr-1 font-semibold capitalize">
+                    view resume
+                  </span>
+                  <div className="h-4 w-4">
+                    <Download height="4" width="4" />
+                  </div>
+                </div>
               </Link>
-              <Download height="4" width="4" />
             </button>
           </div>
         </div>
