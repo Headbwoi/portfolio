@@ -6,18 +6,18 @@ type Props = {
 
 const HeroNav = ({ name, children }: Props) => {
   return (
-    <div className="flex items-center justify-center flex-col cursor-pointer group">
+    <button
+      className={`flex items-center justify-center rounded-md px-3 sm:px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
+    >
       <Link href={`${name.toLowerCase().replace(" ", "")}`}>
-        <a className="flex items-center justify-center flex-col cursor-pointer">
-          <div className="h-12 w-12 md:h-16 md:w-16 rounded-full bg-buttonBg grid place-items-center">
-            {children}
-          </div>
-          <p className="text-sm  group-hover:text-cyan  font-pop text-text capitalize w-fit duration-300">
+        <div className="flex w-full h-full items-center">
+          <span className="text-white text-sm mr-3 group:hover:mr-1 font-semibold capitalize">
             {name}
-          </p>
-        </a>
+          </span>
+          <div className="h-4 w-4">{children}</div>
+        </div>
       </Link>
-    </div>
+    </button>
   )
 }
 
