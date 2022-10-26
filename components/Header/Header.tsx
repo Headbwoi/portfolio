@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header className="py-4 md:pt-5 lg:pt-0 w-full bg-body -mb-[1px]">
-      <nav className=" h-10 md:h-16 lg:h-[6.25rem] container w-full flex items-center justify-between px-6 md:px-10 lg:px-0">
+      <nav className=" h-10 md:h-16 lg:h-[6.25rem] w-full flex items-center justify-between px-6 md:px-10 lg:px-14">
         {/* icon */}
         <Link href={"/"}>
           <div className="w-7 h-7  relative cursor-pointer">
