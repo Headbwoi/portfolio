@@ -12,7 +12,7 @@ const HeroNav = ({ name, children }: Props) => {
           <div className="h-12 w-12 md:h-16 md:w-16 rounded-full bg-buttonBg grid place-items-center">
             {children}
           </div>
-          <p className="text-[14px] lg:text-sm  group-hover:text-cyan  font-pop text-text capitalize w-fit duration-300">
+          <p className="text-sm  group-hover:text-cyan  font-pop text-text capitalize w-fit duration-300">
             {name}
           </p>
         </a>

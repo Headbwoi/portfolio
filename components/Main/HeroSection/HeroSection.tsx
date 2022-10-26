@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const HeroSection = () => {
   return (
-    <div className="w-full pt-[10%] sm:pt-[25%] lg:pt-0 flex items-center justify-start sm:justify-center lg:justify-start flex-col min-h-screen">
+    <div className="w-full pt-[20%] sm:pt-[25%] lg:pt-0 flex items-center justify-start sm:justify-center lg:justify-start flex-col min-h-screen">
       <div className="flex items-center justify-center flex-col w-full">
         {/* text */}
         <div className="relative w-full pb-8 lg:pb-40 lg:w-[48.375rem] mx-auto">
@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="flex items-center md:justify-center space-x-5 pb-7 mb-6 md:mb-14 font-pop text-text text-head-sm md:text-head-lg">
               <p className=" w-fit">Tochukwu</p>
               <p className="relative text-cyan before:absolute before:-bottom-4 before:left-0 before:w-full before:h-1 before:block before:bg-cyan before:rounded-full">
-                John
+                John.
               </p>
             </div>
           </div>
