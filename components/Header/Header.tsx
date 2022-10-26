@@ -34,12 +34,12 @@ const Header = () => {
         </Link>
 
         {/* desktop link */}
-        <div className="hidden lg:flex">
+        <div className="hidden md:flex">
           <Desktop />
         </div>
 
         {/* button */}
-        <div className="cta hidden lg:flex">
+        <div className="cta hidden md:flex">
           <button
             className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
           >
@@ -53,7 +53,7 @@ const Header = () => {
         </div>
 
         {/* hamburger */}
-        <div className="lg:hidden w-10 h-5 relative" onClick={handleMenuToggle}>
+        <div className="md:hidden w-10 h-5 relative" onClick={handleMenuToggle}>
           <Image
             src={"/icons/hamburger.svg"}
             layout="fill"
