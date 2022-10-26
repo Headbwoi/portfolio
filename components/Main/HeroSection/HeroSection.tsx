@@ -11,7 +11,7 @@ const HeroSection = () => {
         {/* text */}
         <div className="relative w-full pb-8 lg:pb-40 lg:w-[48.375rem] mx-auto">
           {/* name */}
-          <div className=" font-bold text-cyan font-pop md:text-center w-full">
+          <div className=" font-bold text-cyan font-pop  w-full">
             <p className="font-pop text-3xl mb-4 md:mb-6">{"👋I'm"}</p>
             <div className="flex items-center md:justify-center space-x-5 pb-7 mb-6 md:mb-14 font-pop text-text text-head-sm md:text-head-lg">
               <p className=" w-fit">Tochukwu</p>
