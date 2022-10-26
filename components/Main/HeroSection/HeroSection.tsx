@@ -30,8 +30,9 @@ const HeroSection = () => {
             <p className="text-text_Light text-lg md:text-xl md:leading-[1.3] ">
               {"i'm"} a <span className="text-cyan">software engineer</span>, a
               <span className="text-cyan"> full stack engineer</span> and
-              occasionally i design exceptional user experiences. {"I'm "}
-              currently focused on the frontend using{" "}
+              occasionally i design exceptional user experiences. Currently
+              {"I'm "}
+              focused on the frontend using
               <span className="text-cyan uppercase font-bold">
                 mern / t3 stack
               </span>{" "}
