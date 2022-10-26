@@ -3,7 +3,7 @@ import { ContactIcon, Download } from "../icons"
 
 const HeroSection = () => {
   return (
-    <div className="w-full pt-[20%] sm:pt-[25%] lg:pt-0 flex items-center justify-start sm:justify-center lg:justify-start flex-col min-h-screen">
+    <div className="w-full lg:pt-12 flex items-center justify-center flex-col min-h-screen">
       <div className="flex items-center justify-center flex-col w-full">
         {/* text */}
         <div className="relative w-full pb-8 lg:pb-40 mx-auto">
@@ -12,7 +12,7 @@ const HeroSection = () => {
             <p className="font-pop text-lg md:text-xl mb-4 md:mb-6">
               Hi there, {"👋I'm"}
             </p>
-            <div className="flex items-center space-x-5 pb-7 font-pop text-text text-3xl sm:text-4xl md:text-7xl">
+            <div className="flex items-center space-x-5 pb-7 font-pop text-text text-3xl sm:text-4xl md:text-[5rem] md:leading-[1.3]">
               <p className=" w-fit">Tochukwu</p>
               <p className="relative text-cyan before:absolute before:-bottom-2 before:left-0 before:w-full before:h-1 md:before:h-2 md:before:-bottom-3 before:block before:bg-cyan before:rounded-full">
                 John.
@@ -20,13 +20,14 @@ const HeroSection = () => {
             </div>
           </div>
           {/* brief about */}
-          <div className="w-full mb-6">
-            <p className="text-text_Light text-3xl sm:text-4xl md:text-6xl md:leading-[4rem] font-semibold">
+          <div className="w-full mb-6 ">
+            <p className="text-text_Light text-3xl sm:text-4xl md:text-6xl font-semibold md:leading-[1.3]">
               I build things for the web
             </p>
           </div>
-          <div>
-            <p className="text-text_Light text-lg md:leading-[4rem] ">
+          {/* brief about info */}
+          <div className="max-w-[33.75rem]">
+            <p className="text-text_Light text-lg md:text-xl md:leading-[1.3] ">
               {"i'm"} a <span className="text-cyan">software engineer</span>, a
               <span className="text-cyan"> full stack engineer</span> and
               occasionally i design exceptional user experiences. {"I'm "}
@@ -38,7 +39,8 @@ const HeroSection = () => {
               <span className="text-cyan bold">XeuxDev</span>.
             </p>
           </div>
-          <div className="flex items-center justify-center space-x-3 md:space-x-5 mt-[20%] lg:mt-[10%] w-full">
+          {/* buttons */}
+          <div className="flex items-center justify-center lg:justify-start space-x-3 md:space-x-5 mt-11 md:mt-14 w-full">
             <button
               className={`flex items-center justify-center rounded-md px-3 sm:px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
             >
