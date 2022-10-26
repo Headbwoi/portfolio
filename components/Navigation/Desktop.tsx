@@ -3,7 +3,6 @@ const Desktop = () => {
   const linkArray = [
     "home",
     "about me",
-    "skills",
     "projects",
     "experiences",
     "contact",
