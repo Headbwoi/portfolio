@@ -41,7 +41,7 @@ const Header = () => {
         {/* button */}
         <div className="cta hidden md:flex">
           <button
-            className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
+            className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
           >
             <Link href={`/contactme`}>
               <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
