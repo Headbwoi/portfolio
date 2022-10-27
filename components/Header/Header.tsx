@@ -34,22 +34,21 @@ const Header = () => {
         </Link>
 
         {/* desktop link */}
-        <div className="hidden md:flex">
+        <div className="hidden md:flex items-center space-x-8">
           <Desktop />
-        </div>
-
-        {/* button */}
-        <div className="cta hidden md:flex">
-          <button
-            className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
-          >
-            <Link href={`/contactme`}>
-              <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
-                resume
-              </span>
-            </Link>
-            <Download height="4" width="4" />
-          </button>
+          {/* button */}
+          <div className="cta hidden md:flex">
+            <button
+              className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
+            >
+              <Link href={`/contactme`}>
+                <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
+                  resume
+                </span>
+              </Link>
+              <Download height="4" width="4" />
+            </button>
+          </div>
         </div>
 
         {/* hamburger */}
