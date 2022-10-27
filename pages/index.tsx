@@ -1,11 +1,7 @@
 import type { NextPage } from "next"
 import Image from "next/image"
 import {
-  HeroNav,
   HeroSection,
-  AboutIcon,
-  ProjectIcon,
-  ContactIcon,
   HeadSection,
 } from "../components"
 
@@ -26,15 +22,7 @@ const Home: NextPage = () => {
         </section>
       </main>
 
-      <footer className="relative z-30 font-pop">
-        <div className="w-full h-20 md:h-24 absolute bottom-0 left-1/2 -translate-x-1/2 grid place-items-center">
-          <div className="flex items-center justify-center px-6 space-x-10 md:space-x-16 lg:space-x-20">
-            <HeroNav name="about me">
-              <AboutIcon height="4" width="4" />
-            </HeroNav>
-          </div>
-        </div>
-      </footer>
+      <footer className="relative z-30 font-pop"></footer>
     </>
   )
 }
