@@ -4,7 +4,7 @@ import { ContactIcon } from "../icons"
 const HireMeButton = () => {
   return (
     <button
-      className={`flex items-center justify-center rounded-md px-3 md:px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
+      className={`flex items-center justify-center rounded-md px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
     >
       <Link href={`/`}>
         <div className="flex w-full h-full items-center">
