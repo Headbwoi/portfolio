@@ -44,16 +44,14 @@ const HeroSection = () => {
             </p>
           </div>
           {/* buttons */}
-          <div className="flex items-center justify-center lg:justify-start space-x-5 md:space-x-7 mt-11 md:mt-14 w-full mb-10">
+          <div className="flex items-center space-x-5 md:space-x-7 mt-11 md:mt-14 w-full mb-10">
             <HireMeButton />
             <ResumeButton />
           </div>
           {/* btn2 */}
           <div className="flex items-center space-x-3">
-            <p className="text-text_Light">Learn more about me</p>
-
-            <div className="w-full grid place-items-center">
-              <HeroNav name="about me">
+            <div className="">
+              <HeroNav name="learn about me">
                 <AboutIcon height="4" width="4" />
               </HeroNav>
             </div>
