@@ -33,17 +33,18 @@ const HeroSection = () => {
               {"i'm"} a <span className="text-cyan">software engineer</span>, a
               <span className="text-cyan"> full stack engineer</span> and
               occasionally i design exceptional user experiences. Currently
-              {"I'm "}
+              {" I'm "}
               focused on the frontend using
               <span className="text-cyan uppercase font-bold">
-                mern / t3 stack
-              </span>{" "}
+                {" "}
+                mern / t3 stack{" "}
+              </span>
               in making the world a better place at{" "}
               <span className="text-cyan bold">XeuxDev</span>.
             </p>
           </div>
           {/* buttons */}
-          <div className="flex items-center justify-center lg:justify-start space-x-3 md:space-x-5 mt-11 md:mt-14 w-full mb-10">
+          <div className="flex items-center justify-center lg:justify-start space-x-5 md:space-x-7 mt-11 md:mt-14 w-full mb-10">
             <HireMeButton />
             <ResumeButton />
           </div>
