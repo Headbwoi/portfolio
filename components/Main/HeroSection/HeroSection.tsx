@@ -46,20 +46,6 @@ const HeroSection = () => {
           <div className="flex items-center justify-center lg:justify-start space-x-3 md:space-x-5 mt-11 md:mt-14 w-full mb-10">
             <HireMeButton />
             <ResumeButton />
-            {/* <button
-              className={`flex items-center justify-center rounded-md px-3 sm:px-5 w-fit h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
-            >
-              <Link href={`/contactme`}>
-                <div className="flex w-full h-full items-center">
-                  <span className="text-white text-sm mr-3 group:hover:mr-1 font-semibold capitalize">
-                    view resume
-                  </span>
-                  <div className="h-4 w-4">
-                    <Download height="4" width="4" />
-                  </div>
-                </div>
-              </Link>
-            </button> */}
           </div>
           {/* btn2 */}
           <div className="flex items-center space-x-3">
