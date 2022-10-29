@@ -24,7 +24,7 @@ const HeroSection = () => {
         {/* brief about */}
         <div className="w-full mb-6 ">
           <p className="text-text_Light text-3xl sm:text-4xl md:text-6xl font-semibold md:leading-[1.3]">
-            I build things for the web
+            I build things for the web.
           </p>
         </div>
         {/* brief about info */}
