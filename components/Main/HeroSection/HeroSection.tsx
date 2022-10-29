@@ -1,3 +1,4 @@
+
 import { AboutIcon } from "../icons"
 import HeroNav from "./HeroNav"
 import HireMeButton from "./HireMeButton"
@@ -31,13 +32,17 @@ const HeroSection = () => {
           <div className="max-w-[33.75rem]">
             <p className="text-text_Light text-base md:text-xl md:leading-[1.3] ">
               {"i'm"} a <span className="text-cyan">software engineer</span>, a
-              <span className="text-cyan"> full stack engineer</span> and
-              occasionally i design exceptional user experiences. Currently
+              <span className="text-cyan"> fullStack Developer</span> and
+              occasionally, i design exceptional user experiences. Currently
               {" I'm "}
-              focused on the frontend using
-              <span className="text-cyan uppercase font-bold">
+              more focused on the frontend using the
+              {/* <span className="text-cyan uppercase font-bold">
                 {" "}
                 mern / t3 stack{" "}
+              </span> */}
+              <Text/>
+              <span className="text-cyan font-bold">
+                latest and most efficient technologies and frameworks
               </span>
               in making the world a better place at{" "}
               <span className="text-cyan bold">XeuxDev</span>.
