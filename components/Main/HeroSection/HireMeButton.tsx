@@ -8,7 +8,7 @@ const HireMeButton = () => {
     >
       <Link href={`/`}>
         <div className="flex w-full h-full items-center">
-          <span className="text-white text-sm mr-3 group:hover:mr-1 font-semibold capitalize">
+          <span className="text-white text-sm mr-3 group:hover:mr-1 font-normal capitalize tracking-wide">
             hire me
           </span>
           <div className="h-4 w-4">

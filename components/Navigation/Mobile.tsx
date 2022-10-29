@@ -19,7 +19,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
       exit={"exit"}
     >
       <div className="px-6 md:px-10 w-full">
-        <div className="absolute right-6 top-9 ">
+        <div className="absolute right-6 top-5 ">
           {/* hamburger */}
           <div className="lg:hidden" onClick={handleMenuToggle}>
             <Image
@@ -34,7 +34,7 @@ const Mobile = ({ handleMenuToggle }: Props) => {
 
         {/* links */}
         <motion.div
-          className="flex flex-col items-center space-y-7 mb-[5.25rem] mt-[8.25rem]"
+          className="flex flex-col items-center justify-center h-screen space-y-7"
           initial={{ opacity: 0 }}
           whileInView={navItem.show}
           exit={navItem.exit}
@@ -46,19 +46,20 @@ const Mobile = ({ handleMenuToggle }: Props) => {
               handleMenuToggle={handleMenuToggle}
             />
           ))}
+
+          <div className="flex justify-center mt-10">
+            <button
+              className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
+            >
+              <Link href={`/contactme`}>
+                <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
+                  resume
+                </span>
+              </Link>
+              <Download height="4" width="4" />
+            </button>
+          </div>
         </motion.div>
-        <div className="flex justify-center ">
-          <button
-            className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
-          >
-            <Link href={`/contactme`}>
-              <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
-                resume
-              </span>
-            </Link>
-            <Download height="4" width="4" />
-          </button>
-        </div>
       </div>
       Mobile
     </motion.div>

@@ -19,11 +19,11 @@ const Header = () => {
   }, [isOpen])
 
   return (
-    <header className=" w-full bg-body -mb-[1px] backdrop-blur-md fixed top-0 left-0 z-50 shadow-lg">
-      <nav className=" h-10 md:h-16 lg:h-14 w-full flex items-center justify-between px-6 md:px-10 lg:px-14">
+    <header className="flex items-center justify-center  w-full h-16 md:h-20 lg:h-[5rem] bg-body/80 -mb-[1px] fixed top-0 left-0 z-50 shadow-lg px-6 md:px-10 lg:px-14 backdrop-blur-md">
+      <nav className=" w-full flex items-center justify-between">
         {/* icon */}
         <Link href={"/"}>
-          <div className="w-7 h-7  relative cursor-pointer">
+          <div className="w-8 h-8  relative cursor-pointer">
             <Image
               src={"/icons/logo.svg"}
               layout="fill"
