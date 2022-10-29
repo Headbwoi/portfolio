@@ -9,13 +9,7 @@ type Props = {
 }
 
 const Mobile = ({ handleMenuToggle }: Props) => {
-  const linkArray = [
-    "home",
-    "about me",
-    "projects",
-    "experiences",
-    "contact me",
-  ]
+  const linkArray = ["home", "about me", "projects", "contact me"]
   return (
     <motion.div
       className="md:hidden absolute h-screen overflow-hidden w-3/4 top-0 right-0 bg-veryDark z-50"
