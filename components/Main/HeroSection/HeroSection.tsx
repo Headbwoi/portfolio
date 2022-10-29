@@ -6,8 +6,8 @@ import ResumeButton from "./ResumeButton"
 
 const HeroSection = () => {
   return (
-    <div className="w-full lg:pt-12 flex items-center justify-center flex-col min-h-screen">
-      <div className="flex items-center justify-center flex-col w-full">
+    <div className="w-full lg:pt-12">
+      <div className="flex flex-col w-full">
         {/* text */}
         <div className="relative w-full pb-8 lg:pb-40 mx-auto">
           {/* name */}
@@ -36,10 +36,6 @@ const HeroSection = () => {
               occasionally, i design exceptional user experiences. Currently
               {" I'm "}
               more focused on the frontend using the
-              {/* <span className="text-cyan uppercase font-bold">
-                {" "}
-                mern / t3 stack{" "}
-              </span> */}
               <Text text="latest" /> and most{" "}
               <Text text="efficient technologies " /> in making the world a
               better place at <span className="text-cyan bold">XeuxDev</span>.

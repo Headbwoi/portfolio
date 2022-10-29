@@ -1,17 +1,14 @@
 import type { NextPage } from "next"
 import Image from "next/image"
-import {
-  HeroSection,
-  HeadSection,
-} from "../components"
+import { HeroSection, HeadSection } from "../components"
 
 const Home: NextPage = () => {
   return (
     <>
       <HeadSection title="My Portfolio - Home Page" page="Home" />
 
-      <main className="relative font-pop bg-body overflow-x-hidden">
-        <section className="hero relative h-adj w-full z-20  font-pop">
+      <main className="relative w-full font-pop bg-body overflow-x-hidden">
+        <section className="relative min-h-screen flex items-center justify-center z-20  font-pop">
           <div className="absolute inset-0 -z-10">
             <Image src={"/bg-hero.png"} alt="" layout="fill" priority />
           </div>
