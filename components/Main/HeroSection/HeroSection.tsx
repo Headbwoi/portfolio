@@ -1,4 +1,4 @@
-
+import Text from "../../Text/Text"
 import { AboutIcon } from "../icons"
 import HeroNav from "./HeroNav"
 import HireMeButton from "./HireMeButton"
@@ -40,12 +40,9 @@ const HeroSection = () => {
                 {" "}
                 mern / t3 stack{" "}
               </span> */}
-              <Text/>
-              <span className="text-cyan font-bold">
-                latest and most efficient technologies and frameworks
-              </span>
-              in making the world a better place at{" "}
-              <span className="text-cyan bold">XeuxDev</span>.
+              <Text text="latest" /> and most{" "}
+              <Text text="efficient technologies " /> in making the world a
+              better place at <span className="text-cyan bold">XeuxDev</span>.
             </p>
           </div>
           {/* buttons */}
