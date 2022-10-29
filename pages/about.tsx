@@ -41,16 +41,13 @@ const About: NextPage = () => {
                 </div>
               </div>
               {/* images/illustrsions */}
-              <div className="lg:flex-[40%] w-full relative cursor-pointer">
-                <div className="w-[95%] h-96 lg:h-[32rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 hover:animate-pulse">
-                  <Image
-                    src={"/me_black.png"}
-                    alt="moi"
-                    layout="fill"
-                    priority
-                  />
+              <div className="lg:flex-[40%] w-full relative cursor-pointer group">
+                <div className="w-[95%] h-96 lg:h-[32rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 ">
+                  <div className="grayscale group-hover:grayscale-0 duration-500 w-full h-full relative">
+                    <Image src={"/me.png"} alt="moi" layout="fill" priority />
+                  </div>
                 </div>
-                <div className="absolute h-96 lg:h-[32rem] w-full top-5 left-5 border-2 border-body z-10 bg-buttonBg rounded-md"></div>
+                <div className="absolute h-96 lg:h-[32rem] w-full top-5 left-5 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-4 duration-500"></div>
               </div>
             </div>
           </div>
