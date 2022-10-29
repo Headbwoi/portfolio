@@ -12,6 +12,7 @@ module.exports = {
       sm: "375px",
       md: "768px",
       lg: "1000px",
+      xl: "1111px",
     },
     colors: {
       body: "hsl(217, 18%, 14%)",

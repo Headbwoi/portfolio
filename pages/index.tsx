@@ -12,7 +12,7 @@ const Home: NextPage = () => {
           <div className="absolute inset-0 -z-10">
             <Image src={"/bg-hero.png"} alt="" layout="fill" priority />
           </div>
-          <div className="max-w-4xl lg:max-w-[1000px] px-6 md:px-10 lg:px-0 relative w-full ">
+          <div className="max-w-4xl xl:max-w-[1000px] px-6 md:px-10 lg:px-0 relative w-full ">
             {/* hero items' */}
             <HeroSection />
           </div>
