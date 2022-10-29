@@ -8,7 +8,7 @@ const LinkWrapper = ({ name }: Props) => {
     <Link
       href={`${name == "home" ? "/" : name.toLowerCase().replace(" ", "")}`}
     >
-      <a className="text-base hover:text-cyan  text-text capitalize w-fit duration-300">
+      <a className="text-base hover:text-cyan  text-text capitalize w-fit duration-300 font-normal tracking-wide">
         {name}
       </a>
     </Link>
