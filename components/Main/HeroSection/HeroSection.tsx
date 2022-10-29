@@ -46,11 +46,9 @@ const HeroSection = () => {
         </div>
         {/* btn2 */}
         <div className="flex items-center space-x-3">
-          <div className="">
-            <HeroNav name="learn about me">
-              <AboutIcon height="4" width="4" />
-            </HeroNav>
-          </div>
+          <HeroNav name="learn about me">
+            <AboutIcon height="4" width="4" />
+          </HeroNav>
         </div>
       </div>
     </div>
