@@ -1,6 +1,5 @@
 import type { NextPage } from "next"
 import Image from "next/image"
-import Link from "next/link"
 import { HeadSection } from "../components"
 
 const About: NextPage = () => {
@@ -20,6 +19,7 @@ const About: NextPage = () => {
                     Tochukwu John
                   </p>
                 </div>
+                {/* info */}
                 <div className="mb-10 md:mb-12 lg:mb-0">
                   <p className="font-normal text-xl text-text lg:text-2x mb-6">
                     A first year computer science student, a self-taught
@@ -41,8 +41,8 @@ const About: NextPage = () => {
                 </div>
               </div>
               {/* images/illustrsions */}
-              <div className="lg:flex-[40%] w-full relative">
-                <div className="w-[95%] h-96 lg:h-[32rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20">
+              <div className="lg:flex-[40%] w-full relative cursor-pointer">
+                <div className="w-[95%] h-96 lg:h-[32rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 hover:animate-pulse">
                   <Image
                     src={"/me_black.png"}
                     alt="moi"
