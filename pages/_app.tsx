@@ -4,7 +4,7 @@ import { ContactIcons, ContactIconsMobile, Header } from "../components"
 import { useEffect, useState } from "react"
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [screenSize, setScreenSize] = useState<number>(window.screen.width)
+  const [screenSize, setScreenSize] = useState({} as Number)
   useEffect(() => {
     return () => {
       setScreenSize(window.screen.width)
