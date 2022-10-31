@@ -5,9 +5,17 @@ import { useEffect, useState } from "react"
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [screenSize, setScreenSize] = useState({} as Number)
+  // const [scrollUp, setScrollUp] = useState<boolean>()
+
   useEffect(() => {
+    // const scrollUpHandler = () => {
+    //   scrollUp === true ? setScrollUp(false) : setScrollUp(true)
+    // }
+
+    // window.addEventListener("scroll", scrollUpHandler)
     return () => {
       setScreenSize(window.screen.width)
+      // window.removeEventListener("scroll", scrollUpHandler)
     }
   }, [screenSize])
 
