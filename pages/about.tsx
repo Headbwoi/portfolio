@@ -16,12 +16,12 @@ const About: NextPage = () => {
                 <div className=" font-normal text-white text-xl font-pop flex items-start space-x-2 lg:space-x-3 mb-6">
                   <p>Hi{"👋, "} I am</p>
                   <p className="font-pop text-cyan relative w-fit font-semibold">
-                    Tochukwu John
+                    Tochukwu John,
                   </p>
                 </div>
                 {/* info */}
                 <div className="mb-10 md:mb-12 lg:mb-0">
-                  <p className="font-normal text-xl text-text lg:text-2x mb-6">
+                  <p className="font-normal text-lg text-text lg:text-xl mb-6">
                     A first year computer science student, a self-taught
                     Front-end Developer transitioning to Full-Stack Development
                     with a passion and love for coding and solving problems that
@@ -42,12 +42,12 @@ const About: NextPage = () => {
               </div>
               {/* images/illustrsions */}
               <div className="lg:flex-[40%] w-full relative cursor-pointer group">
-                <div className="w-[95%] h-96 lg:h-[32rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 ">
+                <div className="w-[95%] h-96 lg:h-[34rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 ">
                   <div className="grayscale group-hover:grayscale-0 duration-500 w-full h-full relative">
                     <Image src={"/me.png"} alt="moi" layout="fill" priority />
                   </div>
                 </div>
-                <div className="absolute h-96 lg:h-[32rem] w-full top-5 left-5 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-4 duration-500"></div>
+                <div className="absolute h-96 lg:h-[35rem] w-full top-5 left-5 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-4 duration-500"></div>
               </div>
             </div>
           </div>
