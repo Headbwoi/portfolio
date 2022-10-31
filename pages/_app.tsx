@@ -1,13 +1,21 @@
 import "../styles/globals.css"
 import type { AppProps } from "next/app"
-import { ContactIcons, Header } from "../components"
+import { ContactIcons, ContactIconsMobile, Header } from "../components"
+import { useEffect, useState } from "react"
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const [screenSize, setScreenSize] = useState<number>(window.screen.width)
+  useEffect(() => {
+    return () => {
+      setScreenSize(window.screen.width)
+    }
+  }, [screenSize])
+
   return (
     <>
       <Header />
       <Component {...pageProps} />
-      <ContactIcons />
+      {screenSize < 768 ? <ContactIconsMobile /> : <ContactIcons />}
     </>
   )
 }

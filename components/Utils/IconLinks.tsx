@@ -1,22 +1,15 @@
 import Link from "next/link"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
 
 type Props = {
-  iconName: IconDefinition
+  name: string
+  iconName: string
   link: string
 }
 
-const IconLinks = ({ iconName, link }: Props) => {
+const IconLinks = ({ name, iconName, link }: Props) => {
   return (
     <Link href={`${link}`}>
-      <a aria-label="Github" target={"_blank"}>
-        <FontAwesomeIcon
-          icon={iconName}
-          className="text-white bg-body rounded-full bg-none"
-          size="6x"
-        />
-      </a>
+      <a aria-label={name} target={"_blank"}></a>
     </Link>
   )
 }
