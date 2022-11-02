@@ -3,6 +3,7 @@ import { AboutIcon } from "../icons"
 import HeroNav from "./HeroNav"
 import HireMeButton from "./HireMeButton"
 import ResumeButton from "./ResumeButton"
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,7 @@ const HeroSection = () => {
         {/* name */}
         <div className=" font-bold text-cyan font-pop  w-full">
           <p className="font-pop text-lg md:text-xl mb-4 md:mb-6">
-            Hi there, {"👋I'm"}
+            Hi there, 👋I am
           </p>
           <h1 className="flex items-center space-x-5 pb-7 font-pop text-text text-3xl sm:text-4xl md:text-[5rem] md:leading-[1.3]">
             <span className=" w-fit">Tochukwu</span>
@@ -30,7 +31,7 @@ const HeroSection = () => {
         {/* brief about info */}
         <div className="max-w-[33.75rem]">
           <p className="text-text_Light text-base md:text-xl md:leading-[1.3] ">
-            {"i'm"} a <span className="text-cyan">software engineer</span>, a
+            I am a <span className="text-cyan">software engineer</span>, a
             <span className="text-cyan"> fullStack Developer</span> and
             occasionally, i design exceptional user experiences. Currently
             {" I'm "}

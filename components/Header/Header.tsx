@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { Desktop, Mobile } from "../Navigation/index"
-import { AnimatePresence } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 import { Download } from "../Main/icons"
 
 const Header = () => {
@@ -23,14 +23,18 @@ const Header = () => {
       <nav className=" w-full flex items-center justify-between">
         {/* icon */}
         <Link href={"/"}>
-          <div className="w-8 h-8  relative cursor-pointer">
+          <motion.div
+            className="w-8 h-8  relative cursor-pointer"
+            initial={{ y: -100 }}
+            animate={{ y: 0, transition: { duration: 0.5 } }}
+          >
             <Image
               src={"/icons/logo.svg"}
               layout="fill"
               alt="logo"
               priority={true}
             />
-          </div>
+          </motion.div>
         </Link>
 
         {/* desktop link */}
@@ -38,8 +42,10 @@ const Header = () => {
           <Desktop />
           {/* button */}
           <div className="cta hidden md:flex">
-            <button
+            <motion.button
               className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
+              initial={{ y: -100 }}
+              animate={{ y: 0, transition: { duration: 0.5, delay: 0.4 } }}
             >
               <Link href={`/contactme`}>
                 <span className="text-white text-base mr-3 group:hover:mr-1 font-normal capitalize tracking-wide">
@@ -47,19 +53,24 @@ const Header = () => {
                 </span>
               </Link>
               <Download height="4" width="4" />
-            </button>
+            </motion.button>
           </div>
         </div>
 
         {/* hamburger */}
-        <div className="md:hidden w-10 h-5 relative" onClick={handleMenuToggle}>
+        <motion.div
+          className="md:hidden w-10 h-5 relative"
+          onClick={handleMenuToggle}
+          initial={{ x: 100 }}
+          animate={{ x: 0, transition: { duration: 0.5 } }}
+        >
           <Image
             src={"/icons/hamburger.svg"}
             layout="fill"
             alt="Open Menu Icon"
             aria-label="open mobile menu"
           />
-        </div>
+        </motion.div>
 
         {/* mobile menu */}
         <AnimatePresence
