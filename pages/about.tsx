@@ -11,7 +11,7 @@ const About: NextPage = () => {
             <AboutItems />
           </section>
           {/* technologies */}
-          <section className="pt-7 md:pt-10 lg:pt-14">
+          <section className="pt-7 md:pt-10 lg:pt-14 flex justify-center flex-col">
             {/* heading */}
             <div className="heading text-center mb-4" aria-label="Heading">
               <h2
