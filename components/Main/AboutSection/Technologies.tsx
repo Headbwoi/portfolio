@@ -8,6 +8,7 @@ const Technologies = () => {
     "html5",
     "css3",
     "javascript",
+    "typescript",
     "sass",
     "react",
     "nodejs",
@@ -38,7 +39,9 @@ function TechCard({ name }: TechCardProps) {
       <div className="w-7 h-7 relative">
         <Image src={`/images/${name}.svg`} alt={`${name}`} layout="fill" />
       </div>
-      <div className="text-white text-base font-bold tracking-wide">{name}</div>
+      <div className="text-white text-base font-normal tracking-wide capitalize">
+        {name}
+      </div>
     </div>
   )
 }
