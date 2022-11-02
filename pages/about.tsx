@@ -6,9 +6,9 @@ const About: NextPage = () => {
   return (
     <>
       <HeadSection title="Portfolio - About Me" page="About" />
-      <main className="relative font-pop bg-body overflow-x-hidden py-16 ">
-        <section className="hero relative min-h-screen flex items-center justify-center pt-16 lg:pt-28 pb-14 w-full font-pop">
-          <div className="container px-6 md:px-10 lg:px-0">
+      <main className="relative font-pop  min-h-screen flex items-center justify-center  w-full bg-body overflow-x-hidden py-16 ">
+        <div className="container px-6 md:px-10 lg:px-0">
+          <section className="hero relative font-pop pt-16 lg:pt-28 pb-14">
             {/* about items' */}
             <div className="flex items-center justify-center flex-col lg:flex-row  lg:space-x-10 ">
               {/* text */}
@@ -22,20 +22,21 @@ const About: NextPage = () => {
                 {/* info */}
                 <div className="mb-10 md:mb-12 lg:mb-0">
                   <p className="font-normal text-lg text-text lg:text-xl mb-6">
-                    A first year computer science student, a self-taught
+                    A first year computer science student, a{" "}
+                    <span className="text-cyan">self-taught </span>
                     Front-end Developer transitioning to Full-Stack Development
                     with a passion and love for coding and solving problems that
                     impact the lives of people. I can develop modern responsive
                     websites from scratch and build them into user-friendly and
                     accessible web experiences for your users.
                   </p>
-                  <p className="font-normal text-xl text-text lg:text-2x mb-6">
+                  <p className="font-normal text-lg text-text lg:text-xl mb-6">
                     Transformng my creatvity and knowledge into websites have
                     been my passion for months now. During this time, I have
                     helped various clients establish their presence online. I
                     also love learning new technologies and frameworks.
                   </p>
-                  <p className="font-normal text-xl text-text lg:text-2x mb-6">
+                  <p className="font-normal text-lg text-text lg:text-xl mb-6">
                     Additionally, i am a lover of open source softwares.
                   </p>
                 </div>
@@ -47,11 +48,13 @@ const About: NextPage = () => {
                     <Image src={"/me.png"} alt="moi" layout="fill" priority />
                   </div>
                 </div>
-                <div className="absolute h-96 lg:h-[35rem] w-full top-5 left-5 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-4 duration-500"></div>
+                <div className="absolute h-96 lg:h-[35rem] w-full top-5 left-4 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-3 duration-500"></div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+          {/* technologies */}
+          <section></section>
+        </div>
       </main>
     </>
   )
