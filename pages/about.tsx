@@ -1,5 +1,5 @@
 import type { NextPage } from "next"
-import { AboutItems, HeadSection } from "../components"
+import { AboutItems, HeadSection, Technologies } from "../components"
 
 const About: NextPage = () => {
   return (
@@ -25,7 +25,7 @@ const About: NextPage = () => {
               </p>
             </div>
             {/* techs */}
-            <
+            <Technologies />
           </section>
         </div>
       </main>
