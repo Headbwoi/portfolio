@@ -7,7 +7,7 @@ const Desktop = () => {
     <motion.div
       className="flex items-center space-x-8 h-[5.375rem]"
       initial={{ y: -100 }}
-      animate={{ y: 0, transition: { duration: 0.5, delayChildren: 0.8 } }}
+      animate={{ y: 0, transition: { duration: 0.3, delay: 0.2 } }}
     >
       {linkArray.map((item, index) => (
         <LinkWrapper key={index} name={item} />

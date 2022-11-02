@@ -12,9 +12,13 @@ const HeroSection = () => {
       <div className="relative w-full mx-auto">
         {/* name */}
         <div className=" font-bold text-cyan font-pop  w-full">
-          <p className="font-pop text-lg md:text-xl mb-4 md:mb-6">
+          <motion.p
+            className="font-pop text-lg md:text-xl mb-4 md:mb-6"
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
+          >
             Hi there, 👋I am
-          </p>
+          </motion.p>
           <h1 className="flex items-center space-x-5 pb-7 font-pop text-text text-3xl sm:text-4xl md:text-[5rem] md:leading-[1.3]">
             <span className=" w-fit">Tochukwu</span>
             <span className="relative text-cyan before:absolute before:-bottom-2 before:left-0 before:w-full before:h-1 md:before:h-2 md:before:-bottom-3 before:block before:bg-cyan before:rounded-full">

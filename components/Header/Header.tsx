@@ -26,7 +26,7 @@ const Header = () => {
           <motion.div
             className="w-8 h-8  relative cursor-pointer"
             initial={{ y: -100 }}
-            animate={{ y: 0, transition: { duration: 0.5 } }}
+            animate={{ y: 0, transition: { duration: 0.3 } }}
           >
             <Image
               src={"/icons/logo.svg"}
@@ -45,7 +45,7 @@ const Header = () => {
             <motion.button
               className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan_dark duration-300 group cursor-pointer`}
               initial={{ y: -100 }}
-              animate={{ y: 0, transition: { duration: 0.5, delay: 0.4 } }}
+              animate={{ y: 0, transition: { duration: 0.3, delay: 0.1 } }}
             >
               <Link href={`/contactme`}>
                 <span className="text-white text-base mr-3 group:hover:mr-1 font-normal capitalize tracking-wide">

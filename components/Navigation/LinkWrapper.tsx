@@ -10,13 +10,9 @@ const LinkWrapper = ({ name }: Props) => {
     <Link
       href={`${name == "home" ? "/" : name.toLowerCase().replace(" ", "")}`}
     >
-      <motion.a
-        className="text-base hover:text-cyan  text-text capitalize w-fit duration-300 font-normal tracking-wide"
-        initial={{ y: -100 }}
-        animate={{ y: 0, transition: { duration: 0.5 } }}
-      >
+      <a className="text-base hover:text-cyan  text-text capitalize w-fit duration-300 font-normal tracking-wide">
         {name}
-      </motion.a>
+      </a>
     </Link>
   )
 }
