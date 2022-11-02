@@ -1,7 +1,7 @@
 import Link from "next/link"
 import IconLinks from "./IconLinks"
 import Github from "./icons/Github"
-import LinkedIn from "./icons/linkedIn"
+import LinkedIn from "./icons/LinkedIn"
 import Twitter from "./icons/Twitter"
 const ContactIcons = () => {
   return (
