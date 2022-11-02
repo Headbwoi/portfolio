@@ -13,7 +13,7 @@ const About: NextPage = () => {
             <div className="flex items-center justify-center flex-col lg:flex-row  lg:space-x-10 ">
               {/* text */}
               <div className="text lg:flex-[45%]">
-                <div className=" font-normal text-white text-xl font-pop flex items-start space-x-2 lg:space-x-3 mb-6">
+                <div className=" font-normal text-white text-xl lg:text-2xl font-pop flex items-start space-x-2 lg:space-x-3 mb-6">
                   <p>Hi{"👋, "} I am</p>
                   <p className="font-pop text-cyan relative w-fit font-semibold">
                     Tochukwu John,
