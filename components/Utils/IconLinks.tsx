@@ -2,14 +2,16 @@ import Link from "next/link"
 
 type Props = {
   name: string
-  iconName: string
   link: string
+  children: React.ReactNode
 }
 
-const IconLinks = ({ name, iconName, link }: Props) => {
+const IconLinks = ({ name, link, children }: Props) => {
   return (
     <Link href={`${link}`}>
-      <a aria-label={name} target={"_blank"}></a>
+      <a aria-label={name} target={"_blank"}>
+        {children}
+      </a>
     </Link>
   )
 }
