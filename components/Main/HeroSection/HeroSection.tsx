@@ -15,26 +15,54 @@ const HeroSection = () => {
           <motion.p
             className="font-pop text-lg md:text-xl mb-4 md:mb-6"
             initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1, transition: { delay: 0.5 } }}
+            animate={{
+              y: 0,
+              opacity: 1,
+              transition: { duration: 0.3, delay: 0.55 },
+            }}
           >
             Hi there, 👋I am
           </motion.p>
-          <h1 className="flex items-center space-x-5 pb-7 font-pop text-text text-3xl sm:text-4xl md:text-[5rem] md:leading-[1.3]">
+          <motion.h1
+            className="flex items-center space-x-5 pb-7 font-pop text-text text-3xl sm:text-4xl md:text-[5rem] md:leading-[1.3]"
+            initial={{ y: 20, opacity: 0 }}
+            animate={{
+              y: 0,
+              opacity: 1,
+              transition: { duration: 0.3, delay: 0.6 },
+            }}
+          >
             <span className=" w-fit">Tochukwu</span>
             <span className="relative text-cyan before:absolute before:-bottom-2 before:left-0 before:w-full before:h-1 md:before:h-2 md:before:-bottom-3 before:block before:bg-cyan before:rounded-full">
               John.
             </span>
-          </h1>
+          </motion.h1>
         </div>
         {/* brief about */}
         <div className="w-full mb-6 ">
-          <p className="text-text_Light text-3xl sm:text-4xl md:text-6xl font-semibold md:leading-[1.3]">
+          <motion.p
+            className="text-text_Light text-3xl sm:text-4xl md:text-6xl font-semibold md:leading-[1.3]"
+            initial={{ y: 20, opacity: 0 }}
+            animate={{
+              y: 0,
+              opacity: 1,
+              transition: { duration: 0.3, delay: 0.65 },
+            }}
+          >
             I build things for the web.
-          </p>
+          </motion.p>
         </div>
         {/* brief about info */}
         <div className="max-w-[33.75rem]">
-          <p className="text-text_Light text-base md:text-xl md:leading-[1.3] ">
+          <motion.p
+            className="text-text_Light text-base md:text-xl md:leading-[1.3] "
+            initial={{ y: 20, opacity: 0 }}
+            animate={{
+              y: 0,
+              opacity: 1,
+              transition: { duration: 0.3, delay: 0.7 },
+            }}
+          >
             I am a <span className="text-cyan">software engineer</span>, a
             <span className="text-cyan"> fullStack Developer</span> and
             occasionally, i design exceptional user experiences. Currently
@@ -42,19 +70,35 @@ const HeroSection = () => {
             more focused on the frontend using the <Text text="latest" /> and
             most <Text text="efficient technologies " /> in making the world a
             better place at <span className="text-cyan bold">XeuxDev</span>.
-          </p>
+          </motion.p>
         </div>
         {/* buttons */}
-        <div className="flex items-center space-x-5 md:space-x-7 mt-11 md:mt-14 w-full mb-10">
+        <motion.div
+          className="flex items-center space-x-5 md:space-x-7 mt-11 md:mt-14 w-full mb-10"
+          initial={{ y: 20, opacity: 0 }}
+          animate={{
+            y: 0,
+            opacity: 1,
+            transition: { duration: 0.3, delay: 0.75 },
+          }}
+        >
           <HireMeButton />
           <ResumeButton />
-        </div>
+        </motion.div>
         {/* btn2 */}
-        <div className="flex items-center space-x-3">
+        <motion.div
+          className="flex items-center space-x-3"
+          initial={{ y: 20, opacity: 0 }}
+          animate={{
+            y: 0,
+            opacity: 1,
+            transition: { duration: 0.3, delay: 0.8 },
+          }}
+        >
           <HeroNav name="learn about me">
             <AboutIcon height="4" width="4" />
           </HeroNav>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
