@@ -12,9 +12,10 @@ const About: NextPage = () => {
           </section>
           {/* technologies */}
           <section className="pt-7 md:pt-10 lg:pt-14">
-            <div className="heading text-center" aria-label="Heading">
+            {/* heading */}
+            <div className="heading text-center mb-4" aria-label="Heading">
               <h2
-                className="text-xl md:text-2xl lg:text-4xl font-semibold capitalize text-white tracking-wide"
+                className="text-2xl lg:text-4xl font-semibold capitalize text-white tracking-wide mb-4"
                 id="heading"
               >
                 technologies that i use
@@ -23,6 +24,8 @@ const About: NextPage = () => {
                 Here are some technologies i am using or have used recently
               </p>
             </div>
+            {/* techs */}
+            <
           </section>
         </div>
       </main>
