@@ -9,7 +9,7 @@ const About: NextPage = () => {
       <main className="relative font-pop  min-h-screen flex items-center justify-center  w-full bg-body overflow-x-hidden py-16 ">
         <div className="max-w-4xl xl:max-w-[1000px] px-6 md:px-10 lg:px-0">
           <header
-            className=" pt-16 lg:pt-28 flex items-center space-x-3"
+            className=" pt-16 lg:pt-28 flex items-center space-x-5"
             aria-label="heading"
           >
             <p
@@ -20,7 +20,7 @@ const About: NextPage = () => {
             </p>
             <span className=" bg-text h-[1px] w-40 md:w-40 lg:w-80"></span>
           </header>
-          <section className="pt-8 lg:pt-20 pb-14">
+          <section className="pt-10 lg:pt-20 pb-14">
             <AboutItems />
           </section>
           {/* technologies */}
