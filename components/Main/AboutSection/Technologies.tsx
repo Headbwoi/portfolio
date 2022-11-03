@@ -7,16 +7,17 @@ const Technologies = () => {
   const CardItems: string[] = [
     "html5",
     "css3",
-    "javascript",
-    "typescript",
     "sass",
+    "git",
+    "github",
+    "javascript",
     "react",
+    "typescript",
+    "nextjs",
     "nodejs",
     "express",
     "mongodb",
-    "nextjs",
-    "git",
-    "github",
+    "figma",
   ]
   return (
     <>
