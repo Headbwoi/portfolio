@@ -16,7 +16,6 @@ const PageTitle = ({ page, addon }: Props) => {
       <p className="text-3xl md:text-4xl text-white font-bold" id="heading">
         {page} <span className="text-cyan">{addon}</span>
       </p>
-      <span className=" bg-text h-[1px] w-40 md:w-40 lg:w-80"></span>
     </motion.div>
   )
 }
