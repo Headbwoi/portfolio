@@ -19,15 +19,15 @@ const Mobile = ({ handleMenuToggle }: Props) => {
       exit={"exit"}
     >
       <div className="px-6 md:px-10 w-full">
-        <div className="absolute right-6 top-5 ">
+        <div className="absolute right-6 top-6 ">
           {/* hamburger */}
           <div className="lg:hidden" onClick={handleMenuToggle}>
             <Image
               src={"/icons/close.svg"}
               alt="Open Menu Icon"
               aria-label="open mobile menu"
-              width={44}
-              height={28}
+              width={40}
+              height={25}
             />
           </div>
         </div>
