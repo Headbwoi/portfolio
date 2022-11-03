@@ -12,9 +12,7 @@ const ContactMe: NextPage = () => {
               <ContactItems />
             </section>
             <section className="pt-7 md:pt-10 lg:pt-14 flex justify-center flex-col">
-              <form>
-                <div></div>
-              </form>
+              <Conta
             </section>
           </div>
         </div>
