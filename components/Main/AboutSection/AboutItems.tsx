@@ -57,7 +57,9 @@ const AboutItems = () => {
               whileInView={aboutVariant.p3}
               viewport={{ once: true }}
             >
-              Additionally, i am a lover of open source softwares.
+              Additionally, i am a lover of open source softwares. I am also
+              looking for internships and projects to boost my skills and to get
+              experience in software {"Full Stack Development"}.
             </motion.p>
           </div>
         </div>
