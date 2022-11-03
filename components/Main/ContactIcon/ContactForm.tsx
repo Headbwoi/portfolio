@@ -1,5 +1,5 @@
 const ContactForm = () => {
-  return <div>ContactForm</div>
+  return <div></div>
 }
 
 export default ContactForm
