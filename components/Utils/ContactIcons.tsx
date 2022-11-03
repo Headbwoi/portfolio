@@ -1,13 +1,22 @@
+import { motion } from "framer-motion"
 import Link from "next/link"
 import IconLinks from "./IconLinks"
 import Github from "./icons/Github"
 import LinkedIn from "./icons/LinkedIn"
 import Twitter from "./icons/Twitter"
+
 const ContactIcons = () => {
   return (
-    <div className="hidden md:block">
+    <motion.div
+      className="hidden md:block"
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: { duration: 0.3, delay: 1 },
+      }}
+    >
       {/* left */}
-      <div className="flex items-center justify-center py-0 px-0 w-10 border-cyan fixed z-30 bottom-0 lg:left-3 left-10 right-auto">
+      <div className="flex items-center justify-center py-0 px-0 w-10 border-cyan fixed z-30 bottom-0 lg:left-3 left-10 right-auto overflow-hidden">
         <ul className="flex lg:flex-col space-x-6 lg:space-x-0 lg:space-y-6 list-none  after:hidden lg:after:block after:h-24 after:w-[2px] after:mx-auto after:bg-white after:mt-4  ">
           <li className="w-5 h-5">
             <IconLinks link="https://github.com/Headbwoi" name="Github">
@@ -38,7 +47,7 @@ const ContactIcons = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

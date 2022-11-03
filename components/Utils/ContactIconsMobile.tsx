@@ -1,11 +1,20 @@
+import { motion } from "framer-motion"
 import Link from "next/link"
 import IconLinks from "./IconLinks"
 import Github from "./icons/Github"
 import LinkedIn from "./icons/LinkedIn"
 import Twitter from "./icons/Twitter"
+
 const ContactIconsMobile = () => {
   return (
-    <div className="md:hidden bg-gray/30 w-full fixed h-6 bottom-0 left-0 px-6 py-5 flex items-center justify-between z-30">
+    <motion.div
+      className="md:hidden bg-gray/30 w-full fixed h-6 bottom-0 left-0 px-6 py-5 flex items-center justify-between z-30"
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: { duration: 0.3, delay: 1 },
+      }}
+    >
       {/* left */}
       <div className="flex items-center justify-center border-cyan left-0 right-auto">
         <ul className="flex lg:flex-col space-x-6  list-none">
@@ -38,7 +47,7 @@ const ContactIconsMobile = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
