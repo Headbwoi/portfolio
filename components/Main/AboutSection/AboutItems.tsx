@@ -80,7 +80,7 @@ const AboutItems = () => {
                 layout="fill"
                 quality={100}
                 placeholder={"blur"}
-                blurDataURL={"/me_small.png"}
+                blurDataURL={"/me.png"}
               />
             </div>
           </div>
