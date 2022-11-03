@@ -16,23 +16,32 @@ const ContactIcons = () => {
       }}
     >
       {/* left */}
-      <div className="flex items-center justify-center py-0 px-0 w-10 border-cyan fixed z-30 bottom-0 lg:left-3 left-10 right-auto overflow-hidden">
+      <div className="flex items-center justify-center py-0 px-0 w-10 border-cyan fixed z-30 bottom-0 lg:left-3 left-10 right-auto">
         <ul className="flex lg:flex-col space-x-6 lg:space-x-0 lg:space-y-6 list-none  after:hidden lg:after:block after:h-24 after:w-[2px] after:mx-auto after:bg-white after:mt-4  ">
-          <li className="w-5 h-5">
+          <motion.li
+            className="w-5 h-5"
+            whileHover={{ y: -5, transition: { duration: 0.3 } }}
+          >
             <IconLinks link="https://github.com/Headbwoi" name="Github">
               <Github />
             </IconLinks>
-          </li>
-          <li className="w-5 h-5">
+          </motion.li>
+          <motion.li
+            className="w-5 h-5"
+            whileHover={{ y: -5, transition: { duration: 0.3 } }}
+          >
             <IconLinks link="https://github.com/Headbwoi" name="Github">
               <LinkedIn />
             </IconLinks>
-          </li>
-          <li className="w-5 h-5">
+          </motion.li>
+          <motion.li
+            className="w-5 h-5"
+            whileHover={{ y: -5, transition: { duration: 0.3 } }}
+          >
             <IconLinks link="https://twitter.com/Headbwoi_1" name="Github">
               <Twitter />
             </IconLinks>
-          </li>
+          </motion.li>
         </ul>
       </div>
       {/* right */}
