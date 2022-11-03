@@ -14,7 +14,10 @@ const PageTitle = ({ page, addon }: Props) => {
       animate={{ opacity: 1, y: 0, transition: { duration: 0.3, delay: 0.3 } }}
     >
       <p className="text-3xl md:text-4xl text-white font-bold" id="heading">
-        {page} <span className="text-cyan">{addon}</span>
+        {page}{" "}
+        <span className="text-cyan relative after:bg-cyan after:absolute after:-bottom-2 after:left-0 after:w-full after:h-1">
+          {addon}
+        </span>
       </p>
     </motion.div>
   )
