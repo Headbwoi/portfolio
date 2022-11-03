@@ -28,7 +28,6 @@ const Technologies = () => {
           className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0, transition: { duration: 0.3 } }}
-          // viewport={{ once: true }}
         >
           {CardItems.map((item, index) => (
             <TechCard name={item} key={index} />
@@ -52,7 +51,6 @@ function TechCard({ name }: TechCardProps) {
           y: 0,
           transition: { duration: 0.3, delay: 0.2 },
         }}
-        viewport={{ once: true }}
       >
         <Image src={`/images/${name}.svg`} alt={`${name}`} layout="fill" />
       </motion.div>
@@ -64,7 +62,6 @@ function TechCard({ name }: TechCardProps) {
           y: 0,
           transition: { duration: 0.3, delay: 0.4 },
         }}
-        viewport={{ once: true }}
       >
         {name}
       </motion.div>
