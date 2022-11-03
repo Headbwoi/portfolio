@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import type { NextPage } from "next"
 import { AboutItems, HeadSection, Technologies } from "../components"
 
@@ -13,7 +14,13 @@ const About: NextPage = () => {
           {/* technologies */}
           <section className="pt-7 md:pt-10 lg:pt-14 flex justify-center flex-col">
             {/* heading */}
-            <div className="heading text-center mb-4" aria-label="Heading">
+            <motion.div
+              className="heading text-center mb-4"
+              aria-label="Heading"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0, transition: { duration: 0.3 } }}
+              // viewport={{ once: true }}
+            >
               <h2
                 className="text-2xl lg:text-4xl font-semibold capitalize text-white tracking-wide mb-4"
                 id="heading"
@@ -23,7 +30,7 @@ const About: NextPage = () => {
               <p className="text-lg text-text">
                 Here are some technologies i am using or have used recently
               </p>
-            </div>
+            </motion.div>
             {/* techs */}
             <Technologies />
           </section>
