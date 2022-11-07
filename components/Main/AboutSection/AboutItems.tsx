@@ -71,7 +71,7 @@ const AboutItems = () => {
           whileInView={aboutVariant.image}
           viewport={{ once: true }}
         >
-          <div className="w-[95%] h-96 lg:h-[30rem] xl:h-[34rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 ">
+          <div className="w-[95%] h-[23rem] lg:h-[27rem] xl:h-[31rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 ">
             <div className="grayscale group-hover:grayscale-0 duration-500 w-full h-full relative">
               <Image
                 src={"/me.png"}
@@ -84,7 +84,7 @@ const AboutItems = () => {
               />
             </div>
           </div>
-          <div className="absolute h-96 lg:h-[30rem] xl:h-[34rem] w-full top-5 left-4 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-3 duration-500"></div>
+          <div className="absolute h-[23rem] lg:h-[27rem] xl:h-[32.5rem] w-full top-5 left-4 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-3 duration-500"></div>
         </motion.div>
       </div>
     </>
