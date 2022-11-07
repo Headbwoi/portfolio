@@ -32,40 +32,7 @@ export const contactFormVariant = {
     show: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.3, delay: 0.9 },
-    },
-  },
-  email: {
-    init: {
-      opacity: 0,
-      y: 20,
-    },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.3, delay: 1 },
-    },
-  },
-  text: {
-    init: {
-      opacity: 0,
-      y: 20,
-    },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.3, delay: 1.1 },
-    },
-  },
-  submit: {
-    init: {
-      opacity: 0,
-      y: 20,
-    },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.3, delay: 1.2 },
+      transition: { duration: 0.3, delay: 1.3 },
     },
   },
 }
