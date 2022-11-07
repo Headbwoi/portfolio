@@ -51,6 +51,7 @@ function TechCard({ name }: TechCardProps) {
           y: 0,
           transition: { duration: 0.3, delay: 0.2 },
         }}
+        viewport={{ once: true }}
       >
         <Image src={`/images/${name}.svg`} alt={`${name}`} layout="fill" />
       </motion.div>
