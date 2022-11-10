@@ -42,7 +42,7 @@ const ContactIconsMobile = () => {
       <div className="flex items-center justify-center border-cyan left-auto">
         <div className="list-none">
           <div className="md:rotate-90">
-            <Link href={`/`}>
+            <Link href={`mailto:xeuxdev@gmail.com`}>
               <a className="text-text hover:text-cyan duration-200 font-pop text-sm font-semibold ">
                 xeuxdev@gmail.com
               </a>
