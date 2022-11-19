@@ -56,7 +56,12 @@ const ProjectsCard = ({
         >
           <Link href={`${liveLink}`}>
             <a className="min-w-full w-[37rem] lg:w-[42rem] h-[32rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointern opacity-[0.15] lg:opacity-25 hover:opacity-50">
-              <Image src={`/${image}`} alt={`${name} image`} layout="fill" />
+              <Image
+                src={`/${image}`}
+                alt={`${name} image`}
+                layout="fill"
+                priority
+              />
             </a>
           </Link>
         </div>
