@@ -6,7 +6,8 @@ import Github from "../../Utils/icons/Github"
 type ProjectCardprops = {
   image: string
   name: string
-  info: string
+  about: string
+  link: string
 }
 
 const ProjectsCard = ({}: ProjectCardprops) => {
