@@ -3,6 +3,7 @@
     "name": "Countries Rest API",
     "image": "projects/countries-rest-api.png",
     "link": "https://github.com/Headbwoi/Countries_Rest_Api",
+    "liveLink": "https://countries-rest-api-ecru.vercel.app",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": [
       "react",
@@ -17,6 +18,7 @@
     "name": "Crappo CryptoCurrency App",
     "image": "projects/crappo-cryptocurrency-app.png",
     "link": "https://github.com/Headbwoi/crappo-cryptocurrency-website-challenge",
+    "liveLink": "https://crappo-cryptocurrency-app.vercel.app",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": [
       "react",
@@ -30,6 +32,7 @@
     "name": "Rock Paper Scissors",
     "image": "projects/rock-paper-scissors.png",
     "link": "https://github.com/Headbwoi/rock-paper-scissors-game",
+    "liveLink": "https://rps-game-et-moi.netlify.app/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": [
       "vs code",
@@ -45,6 +48,7 @@
     "name": "Space Tourism",
     "image": "projects/space-home.png",
     "link": "https://github.com/Headbwoi/space-tourism-website",
+    "liveLink": "https://space-tourism-website-et-moi.netlify.app/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": [
       "vs code",
@@ -60,6 +64,7 @@
     "name": "Crowdo APP",
     "image": "projects/crowdo-app.png",
     "link": "https://github.com/Headbwoi/crowdo-app",
+    "liveLink": "https://crowdo-app.vercel.app/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": [
       "react",
@@ -76,6 +81,7 @@
     "name": "Card Details Form",
     "image": "projects/card-details.png",
     "link": "https://github.com/Headbwoi/fem-interactive-card-details-form",
+    "liveLink": "https://fem-int-card-det-form.netlify.app/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": ["vs code", "react", "tailwindcss", "javaScript", "vite"]
   },
@@ -83,6 +89,7 @@
     "name": "Ecommerce Product Page",
     "image": "projects/ecommerce-product-page.png",
     "link": "https://github.com/Headbwoi/fem-ecommerce-product-page",
+    "liveLink": "https://headbwoi.github.io/fem-ecommerce-product-page/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": ["vs code", "html", "css", "tailwindcss", "javaScript"]
   },
@@ -90,6 +97,7 @@
     "name": "Bookmark landing Page",
     "image": "projects/bookmark-landing-page.png",
     "link": "https://github.com/Headbwoi/bookmark-landing-page",
+    "liveLink": "https://headbwoi.github.io/bookmark-landing-page/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": ["html", "css", "tailwindcss", "javaScript"]
   },
@@ -98,6 +106,7 @@
     "name": "LoopStudios Landing Page",
     "image": "projects/loopstudios-landing-page.png",
     "link": "https://github.com/Headbwoi/loopstudios-landing-page",
+    "liveLink": "https://headbwoi.github.io/loopstudios-landing-page/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": ["vs code", "html", "css", "scss", "javaScript"]
   },
@@ -106,6 +115,7 @@
     "name": "Silas Graphics",
     "image": "projects/silas-graphics.png",
     "link": "https://github.com/Headbwoi/silas-graphics",
+    "liveLink": "https://headbwoi.github.io/silas-graphics/templates/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": ["html", "css", "tailwindcss", "javaScript"]
   },
@@ -114,6 +124,7 @@
     "name": "Tip Calculator App",
     "image": "projects/tip-calculator-app.png",
     "link": "https://github.com/Headbwoi/tip-calculator-app",
+    "liveLink": "https://headbwoi.github.io/tip-calculator-app/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": ["vs code", "html", "css", "tailwindcss", "javaScript"]
   },
@@ -121,6 +132,7 @@
     "name": "Url Shortener",
     "image": "projects/url-shortener.png",
     "link": "https://github.com/Headbwoi/fem-url-shortener",
+    "liveLink": "https://fem-url-short-ener.netlify.app/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
     "builtWith": ["vs code", "react", "typeScript", "tailwindcss", "vite"]
   }
