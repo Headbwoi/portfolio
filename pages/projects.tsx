@@ -33,7 +33,7 @@ const Projects: NextPage = () => {
             </h1>
           </section>
 
-          <section className="pt-10 flex flex-col space-y-10 lg:space-y-28">
+          <section className="pt-10 flex flex-col space-y-10 lg:space-y-24 xl:space-y-32">
             {projects?.map((item: ProjectCardprops, index) => (
               <ProjectsCard
                 key={index}
