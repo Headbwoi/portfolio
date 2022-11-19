@@ -1,10 +1,25 @@
 import { motion } from "framer-motion"
+import { useEffect, useState } from "react"
 import type { NextPage } from "next"
+import useSWR, { Fetcher } from "swr"
+import { ProjectCardprops } from "../components/Main/ProjectsSection/ProjectsCard"
 
 import React from "react"
 import { HeadSection, PageTitle, ProjectsCard } from "../components"
 
 const Projects: NextPage = () => {
+  const [projects, setProjects] = useState<[]>()
+  useEffect(() => {
+    const getData = async () => {
+      const data = await fetch("/data/projects.json")
+      const response = await data.json()
+      setProjects(response)
+    }
+    return () => {
+      getData()
+    }
+  }, [])
+
   return (
     <>
       <HeadSection page="Projects" title="Portfolio - Project Page" />
@@ -18,8 +33,18 @@ const Projects: NextPage = () => {
             </h1>
           </section>
 
-          <section className="pt-10 flex flex-col space-y-10 lg:space-y-16">
-            <ProjectsCard />
+          <section className="pt-10 flex flex-col space-y-10 lg:space-y-28">
+            {projects?.map((item: ProjectCardprops, index) => (
+              <ProjectsCard
+                key={index}
+                name={item.name}
+                image={item.image}
+                link={item.link}
+                about={item.about}
+                builtWith={item.builtWith}
+                liveLink={item.liveLink}
+              />
+            ))}
           </section>
         </div>
       </main>
