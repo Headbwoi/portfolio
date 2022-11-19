@@ -4,10 +4,10 @@ import Link from "next/link"
 import Github from "../../Utils/icons/Github"
 
 type ProjectCardprops = {
-  image: string
-  name: string
-  about: string
-  link: string
+  image?: string
+  name?: string
+  about?: string
+  link?: string
 }
 
 const ProjectsCard = ({}: ProjectCardprops) => {
