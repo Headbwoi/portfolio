@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import Github from "../../Utils/icons/Github"
+import LiveLink from "./icon/LiveLink"
 
 export type ProjectCardprops = {
   image: string
@@ -83,10 +84,15 @@ const ProjectsCard = ({
               <span key={index}>{item}</span>
             ))}
           </div>
-          <div className="py-5 space-x-4">
+          <div className="py-5 space-x-4 flex items-center">
             <Link href={`${link}`}>
               <a>
                 <Github />
+              </a>
+            </Link>
+            <Link href={`${liveLink}`}>
+              <a>
+                <LiveLink />
               </a>
             </Link>
           </div>
