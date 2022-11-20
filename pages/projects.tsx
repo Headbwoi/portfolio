@@ -1,7 +1,6 @@
 import { motion } from "framer-motion"
 import { useEffect, useState } from "react"
 import type { NextPage } from "next"
-import useSWR, { Fetcher } from "swr"
 import { ProjectCardprops } from "../components/Main/ProjectsSection/ProjectsCard"
 
 import React from "react"
@@ -9,16 +8,20 @@ import { HeadSection, PageTitle, ProjectsCard } from "../components"
 
 const Projects: NextPage = () => {
   const [projects, setProjects] = useState<[]>()
+  const URL =
+    process.env.NODE_ENV === "production"
+      ? "https://xeuxdev.vercel.app/"
+      : "http://localhost:3000/data/projects.json"
   useEffect(() => {
     const getData = async () => {
-      const data = await fetch("/data/projects.json")
+      const data = await fetch(URL)
       const response = await data.json()
       setProjects(response)
     }
     return () => {
       getData()
     }
-  }, [])
+  }, [URL])
 
   return (
     <>
