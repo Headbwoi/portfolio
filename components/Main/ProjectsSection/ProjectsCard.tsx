@@ -46,10 +46,10 @@ const ProjectsCard = ({
           className={`${
             //@ts-ignore
             screenSize < 768
-              ? "absolute inset-0 w-full h-full "
+              ? "absolute inset-0 w-full h-[30rem] "
               : "absolute top-1/2 -translate-y-1/2 flex lg:items-start flex-col "
           } ${
-            orientation === 1 ? " left-0" : orientation === 0 ? " right-0" : ""
+            orientation === 1 ? "left-0" : orientation === 0 ? "right-0" : ""
           }`}
         >
           <Link href={`${liveLink}`}>
