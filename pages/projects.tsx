@@ -1,28 +1,26 @@
 import { motion } from "framer-motion"
-import { useEffect, useState } from "react"
 import type { NextPage } from "next"
 import { ProjectCardprops } from "../components/Main/ProjectsSection/ProjectsCard"
 
 import React from "react"
 import { HeadSection, PageTitle, ProjectsCard } from "../components"
 
-const Projects: NextPage = () => {
-  const [projects, setProjects] = useState<[]>()
+export async function getStaticProps() {
   const URL =
     process.env.NODE_ENV === "production"
       ? "https://xeuxdev.vercel.app/data/projects.json"
       : "http://localhost:3000/data/projects.json"
-  useEffect(() => {
-    const getData = async () => {
-      const data = await fetch(URL)
-      const response = await data.json()
-      setProjects(response)
-    }
-    return () => {
-      getData()
-    }
-  }, [URL])
+  const res = await fetch(URL)
+  const projects = await res.json()
 
+  return {
+    props: {
+      projects,
+    },
+  }
+}
+
+const Projects: NextPage<{ projects: [] }> = ({ projects }) => {
   return (
     <>
       <HeadSection page="Projects" title="Portfolio - Project Page" />
