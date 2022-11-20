@@ -36,7 +36,7 @@ const ProjectsCard = ({
       setOrientation(randNum)
       window.removeEventListener("resize", handleScreenSize)
     }
-  }, [])
+  }, [screenSize])
 
   return (
     <div className="w-full shadow-2xl lg:shadow-none">
