@@ -22,7 +22,7 @@ const ProjectsCard = ({
   builtWith,
 }: ProjectCardprops) => {
   const [orientation, setOrientation] = useState<number | undefined>()
-  const [screenSize, setScreenSize] = useState<number>()
+  const [screenSize, setScreenSize] = useState(0 as number)
 
   const handleScreenSize = () => {
     const screensize = window.screen.width
@@ -44,7 +44,6 @@ const ProjectsCard = ({
         {/* image */}
         <div
           className={`${
-            //@ts-ignore
             screenSize < 768
               ? "absolute inset-0 w-full h-[30rem]"
               : "absolute top-1/2 -translate-y-1/2 flex lg:items-start flex-col "
