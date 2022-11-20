@@ -39,7 +39,7 @@ const ProjectsCard = ({
   }, [])
 
   return (
-    <div className="w-full mx-auto shadow-2xl lg:shadow-none">
+    <div className="w-full shadow-2xl lg:shadow-none">
       <div className="w-full relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden">
         {/* image */}
         <div
