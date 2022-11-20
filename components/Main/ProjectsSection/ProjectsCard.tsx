@@ -40,7 +40,7 @@ const ProjectsCard = ({
 
   return (
     <div className="w-full mx-auto shadow-2xl lg:shadow-none">
-      <div className="w-full relative min-h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden">
+      <div className="w-full relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden">
         {/* image */}
         <div
           className={`${
@@ -55,7 +55,7 @@ const ProjectsCard = ({
           }`}
         >
           <Link href={`${liveLink}`}>
-            <a className="min-w-full w-[37rem] lg:w-[42rem] min-h-[30rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointern opacity-[0.15] lg:opacity-25 hover:opacity-50">
+            <a className="min-w-full w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointern opacity-[0.15] lg:opacity-25 hover:opacity-50">
               <Image
                 src={`/${image}`}
                 alt={`${name} image`}
