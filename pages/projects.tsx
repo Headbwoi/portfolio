@@ -6,11 +6,11 @@ import React from "react"
 import { HeadSection, PageTitle, ProjectsCard } from "../components"
 
 export async function getStaticProps() {
-  const URL =
-    process.env.NODE_ENV === "production"
-      ? "https://xeuxdev.vercel.app/data/projects.json"
-      : "http://localhost:3000/data/projects.json"
-  const res = await fetch(URL)
+  // const URL =
+  //   process.env.NODE_ENV === "production"
+  //     ? "https://xeuxdev.vercel.app/data/projects.json"
+  //     : "http://localhost:3000/data/projects.json"
+  const res = await fetch("/data/projects.json")
   const projects = await res.json()
 
   return {
