@@ -22,7 +22,7 @@ const ProjectsCard = ({
   builtWith,
 }: ProjectCardprops) => {
   const [orientation, setOrientation] = useState<number | undefined>()
-  const [screenSize, setScreenSize] = useState(0 as number)
+  const [screenSize, setScreenSize] = useState<number>()
 
   const handleScreenSize = () => {
     const screensize = window.screen.width
@@ -44,13 +44,14 @@ const ProjectsCard = ({
         {/* image */}
         <div
           className={`${
-            screenSize < 768
-              ? "absolute inset-0 w-full h-[30rem]"
+            //@ts-ignore
+            screenSize <= 768
+              ? "absolute inset-0 w-[20rem] h-[30rem]"
               : "absolute top-1/2 -translate-y-1/2 flex lg:items-start flex-col "
           } ${orientation === 1 ? "left-0" : "right-0"}`}
         >
           <Link href={`${liveLink}`}>
-            <a className="min-w-full w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointer opacity-[0.15] lg:opacity-25 hover:opacity-50">
+            <a className="min-w-[20rem] w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointer opacity-[0.15] lg:opacity-25 hover:opacity-50">
               <Image
                 src={`/${image}`}
                 alt={`${name} image`}
@@ -60,6 +61,7 @@ const ProjectsCard = ({
             </a>
           </Link>
         </div>
+
         {/* text */}
         <div
           className={`${
