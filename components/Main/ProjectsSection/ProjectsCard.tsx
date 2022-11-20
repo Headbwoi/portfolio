@@ -40,13 +40,13 @@ const ProjectsCard = ({
 
   return (
     <div className="w-full shadow-2xl lg:shadow-none">
-      <div className="w-full relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden">
+      <div className="max-w-5xl relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden">
         {/* image */}
         <div
           className={`${
             //@ts-ignore
             screenSize < 768
-              ? "absolute inset-0 w-full h-[30rem] "
+              ? "absolute inset-0 w-full h-[30rem]"
               : "absolute top-1/2 -translate-y-1/2 flex lg:items-start flex-col "
           } ${
             orientation === 1 ? "left-0" : orientation === 0 ? "right-0" : ""
