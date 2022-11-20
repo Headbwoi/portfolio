@@ -48,9 +48,7 @@ const ProjectsCard = ({
             screenSize < 768
               ? "absolute inset-0 w-full h-[30rem]"
               : "absolute top-1/2 -translate-y-1/2 flex lg:items-start flex-col "
-          } ${
-            orientation === 1 ? "left-0" : orientation === 0 ? "right-0" : ""
-          }`}
+          } ${orientation === 1 ? "left-0" : "right-0"}`}
         >
           <Link href={`${liveLink}`}>
             <a className="min-w-full w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointer opacity-[0.15] lg:opacity-25 hover:opacity-50">
