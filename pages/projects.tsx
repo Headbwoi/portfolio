@@ -10,7 +10,7 @@ const Projects: NextPage = () => {
   const [projects, setProjects] = useState<[]>()
   const URL =
     process.env.NODE_ENV === "production"
-      ? "https://xeuxdev.vercel.app/"
+      ? "https://xeuxdev.vercel.app/data/projects.json"
       : "http://localhost:3000/data/projects.json"
   useEffect(() => {
     const getData = async () => {
