@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import Github from "../../Utils/icons/Github"
@@ -11,6 +10,7 @@ export type ProjectCardprops = {
   link: string
   liveLink: string
   builtWith: string[]
+  orientation: number
 }
 
 const ProjectsCard = ({
@@ -20,35 +20,14 @@ const ProjectsCard = ({
   name,
   liveLink,
   builtWith,
+  orientation,
 }: ProjectCardprops) => {
-  const [orientation, setOrientation] = useState<number | undefined>()
-  const [screenSize, setScreenSize] = useState<number>()
-
-  const handleScreenSize = () => {
-    const screensize = window.screen.width
-    setScreenSize(screensize)
-  }
-  useEffect(() => {
-    const randNum = Math.floor(Math.random() * 2)
-    window.addEventListener("resize", handleScreenSize)
-
-    return () => {
-      setOrientation(randNum)
-      window.removeEventListener("resize", handleScreenSize)
-    }
-  }, [screenSize])
-
   return (
     <div className="w-full shadow-2xl lg:shadow-none">
       <div className="max-w-5xl relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden">
         {/* image */}
         <div
-          className={`${
-            //@ts-ignore
-            screenSize <= 768
-              ? "absolute inset-0 w-[20rem] h-[30rem]"
-              : "absolute top-1/2 -translate-y-1/2 flex lg:items-start flex-col "
-          } ${orientation === 1 ? "left-0" : "right-0"}`}
+          className={`absolute inset-0 w-[20rem] h-[30rem] lg:top-1/2 lg:-translate-y-1/2 flex lg:items-start flex-col `}
         >
           <Link href={`${liveLink}`}>
             <a className="min-w-[20rem] w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointer opacity-[0.15] lg:opacity-25 hover:opacity-50">

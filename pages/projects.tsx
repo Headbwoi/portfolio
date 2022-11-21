@@ -44,6 +44,7 @@ const Projects: NextPage<{ projects: [] }> = ({ projects }) => {
                 about={item.about}
                 builtWith={item.builtWith}
                 liveLink={item.liveLink}
+                orientation={Math.floor(Math.random() * 2)}
               />
             ))}
           </section>
