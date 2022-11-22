@@ -4,7 +4,7 @@
     "image": "projects/countries-rest-api.png",
     "link": "https://github.com/Headbwoi/Countries_Rest_Api",
     "liveLink": "https://countries-rest-api-ecru.vercel.app",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
+    "about": "List of Countries of the world from the Countries REST API, Featuring individual Pages for each Country showcasing the basic facts about each country",
     "builtWith": [
       "react",
       "nextjs",
@@ -19,7 +19,7 @@
     "image": "projects/rock-paper-scissors.png",
     "link": "https://github.com/Headbwoi/rock-paper-scissors-game",
     "liveLink": "https://rps-game-et-moi.netlify.app/",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae sit corrupti beatae, veritatis perferendis quis nam odit nesciunt recusandae voluptas quae suscipit. Distinctio, sunt laudantium minima aliquam autem ex eligendi culpa reprehenderit dolores non impedit cupiditate molestias illo natus repudiandae, repellendus dolore similique, ratione earum perferendis. Similique, nisi ullam!",
+    "about": "A Rock Paper Scissors Game built with React. Featuring A powerful AI designed to be efficient and unpredictable in choosing outcomes. Select your choice between Rock, Paper or Scissors and battle the AI immersing yourself in the wonderful transitions and animations that it features",
     "builtWith": [
       "vs code",
       "react",
