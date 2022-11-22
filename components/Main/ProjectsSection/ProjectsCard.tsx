@@ -30,7 +30,11 @@ const ProjectsCard = ({
           className={`absolute inset-0 w-[20rem] h-[30rem] lg:top-1/2 lg:-translate-y-1/2 flex lg:items-start flex-col `}
         >
           <Link href={`${liveLink}`}>
-            <a className="min-w-[20rem] w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] relative rounded-md overflow-hidden duration-300 cursor-pointer opacity-[0.15] lg:opacity-25 hover:opacity-50">
+            <a
+              className={`min-w-[20rem] w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] absolute  rounded-md overflow-hidden duration-300 cursor-pointer opacity-[0.15] lg:opacity-25 hover:opacity-50 ${
+                orientation === 1 ? "lg:left-0" : "lg:left-full"
+              }`}
+            >
               <Image
                 src={`/${image}`}
                 alt={`${name} image`}
