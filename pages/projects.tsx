@@ -21,6 +21,9 @@ export async function getStaticProps() {
 }
 
 const Projects: NextPage<{ projects: [] }> = ({ projects }) => {
+  const random = () => {
+    return Math.floor(Math.random() * 2)
+  }
   return (
     <>
       <HeadSection page="Projects" title="Portfolio - Project Page" />
@@ -44,7 +47,7 @@ const Projects: NextPage<{ projects: [] }> = ({ projects }) => {
                 about={item.about}
                 builtWith={item.builtWith}
                 liveLink={item.liveLink}
-                orientation={Math.floor(Math.random() * 2)}
+                orientation={random()}
               />
             ))}
           </section>
