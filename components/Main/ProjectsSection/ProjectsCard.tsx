@@ -32,7 +32,7 @@ const ProjectsCard = ({
       whileInView={projectVariant.image}
       viewport={{ once: true }}
     >
-      <div className="max-w-5xl relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden ">
+      <div className="max-w-5xl relative h-[33rem] sm:h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden ">
         {/* image */}
         <div
           className={`absolute inset-0 w-[20rem] h-[30rem] lg:top-1/2 lg:-translate-y-1/2 flex lg:items-start flex-col`}
