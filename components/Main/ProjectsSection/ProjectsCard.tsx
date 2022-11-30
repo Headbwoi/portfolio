@@ -35,11 +35,11 @@ const ProjectsCard = ({
       <div className="max-w-5xl relative h-[33rem] sm:h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden ">
         {/* image */}
         <div
-          className={`absolute inset-0 w-[20rem] h-[30rem] lg:top-1/2 lg:-translate-y-1/2 flex lg:items-start flex-col`}
+          className={`absolute inset-0 w-[20rem] h-[33rem] sm:h-[30rem] lg:top-1/2 lg:-translate-y-1/2 flex lg:items-start flex-col`}
         >
           <Link href={`${liveLink}`}>
             <a
-              className={`min-w-[20rem] w-[37rem] lg:w-[42rem] h-[30rem] lg:h-[22rem] xl:h-[28rem] absolute  rounded-xl duration-300 cursor-pointer opacity-10 lg:opacity-25 hover:opacity-50 ${
+              className={`min-w-[20rem] w-[37rem] lg:w-[42rem] h-[33rem] sm:h-[30rem] lg:h-[22rem] xl:h-[28rem] absolute  rounded-xl duration-300 cursor-pointer opacity-10 lg:opacity-25 hover:opacity-50 ${
                 orientation === 1 ? "lg:left-0" : "lg:left-full"
               }`}
             >
