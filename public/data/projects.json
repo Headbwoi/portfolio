@@ -4,7 +4,7 @@
     "image": "projects/countries-rest-api.png",
     "link": "https://github.com/Headbwoi/Countries_Rest_Api",
     "liveLink": "https://countries-rest-api-ecru.vercel.app",
-    "about": "List of Countries of the world from the Countries REST API, Featuring individual Pages for each Country showcasing the basic facts about each country.",
+    "about": "List of Countries of the world from the Countries REST API, Featuring individual Pages for each Country showcasing the basic facts about each country. I had great fun building this and optimising it to be BLAZINGLY FAST for the amount of data being fetched and displayed.",
     "builtWith": [
       "react",
       "nextjs",
@@ -35,7 +35,7 @@
     "image": "projects/crappo-cryptocurrency-app.png",
     "link": "https://github.com/Headbwoi/crappo-cryptocurrency-website-challenge",
     "liveLink": "https://crappo-cryptocurrency-app.vercel.app",
-    "about": "Crappo CryptoCurrency App Landing page, The best crypto currency exchange available with the best imaginary service there is!.",
+    "about": "Crappo CryptoCurrency App Landing page, The best crypto currency exchange available with the best imaginary service there is!. I had a lot of fun building this as i used it to learn nextjs.",
     "builtWith": [
       "react",
       "nextjs",

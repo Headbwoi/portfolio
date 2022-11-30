@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import type { NextPage } from "next"
 import { ProjectCardprops } from "../components/Main/ProjectsSection/ProjectsCard"
 import { HeadSection, PageTitle, ProjectsCard } from "../components"
+import { projectVariant } from "../variants/projectVariant"
 
 export async function getStaticProps() {
   const URL =
@@ -30,9 +31,15 @@ const Projects: NextPage<{ projects: [] }> = ({ projects }) => {
           <PageTitle page="My" addon="Projects" />
 
           <section className="intro pt-10 lg:pt-20 pb-14">
-            <h1 className="text-text text-lg md:text-xl">
+            <motion.h1
+              className="text-text text-lg md:text-xl"
+              initial={{ opacity: 0, y: 20 }}
+              variants={projectVariant}
+              whileInView={projectVariant.heading}
+              viewport={{ once: true }}
+            >
               Here are a few of the projects i have done{" "}
-            </h1>
+            </motion.h1>
           </section>
 
           <section className="pt-10 flex flex-col space-y-10 lg:space-y-24 xl:space-y-32 w-full">
