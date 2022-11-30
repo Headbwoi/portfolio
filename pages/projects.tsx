@@ -1,8 +1,6 @@
 import { motion } from "framer-motion"
 import type { NextPage } from "next"
 import { ProjectCardprops } from "../components/Main/ProjectsSection/ProjectsCard"
-
-import React from "react"
 import { HeadSection, PageTitle, ProjectsCard } from "../components"
 
 export async function getStaticProps() {

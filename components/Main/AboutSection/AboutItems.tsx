@@ -45,7 +45,7 @@ const AboutItems = () => {
               whileInView={aboutVariant.p2}
               viewport={{ once: true }}
             >
-              Transformng my creatvity and knowledge into websites have been my
+              Transformng my creativity and knowledge into websites have been my
               passion for months now. During this time, I have helped various
               clients establish their presence online. I also love learning new
               technologies and frameworks.
@@ -84,7 +84,7 @@ const AboutItems = () => {
               />
             </div>
           </div>
-          <div className="absolute h-[23rem] lg:h-[27rem] xl:h-[31.5rem] w-full top-5 left-3 border-2 border-body z-10 bg-buttonBg rounded-md group-hover:top-4 group-hover:left-3 duration-500"></div>
+          <div className="absolute h-[23rem] md:w-[98%] lg:h-[27rem] xl:h-[31.5rem] w-full top-5 left-3 border-2 border-body z-10 bg-buttonBg rounded-lg group-hover:top-4 group-hover:left-3 duration-500"></div>
         </motion.div>
       </div>
     </>
