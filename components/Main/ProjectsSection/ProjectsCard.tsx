@@ -27,7 +27,7 @@ const ProjectsCard = ({
   return (
     <motion.div
       className="w-full shadow-2xl lg:shadow-none rounded-lg"
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 25 }}
       variants={projectVariant}
       whileInView={projectVariant.image}
       viewport={{ once: true }}
