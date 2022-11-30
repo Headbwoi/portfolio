@@ -25,14 +25,14 @@ const ProjectsCard = ({
   orientation,
 }: ProjectCardprops) => {
   return (
-    <div className="w-full shadow-2xl lg:shadow-none rounded-lg">
-      <motion.div
-        className="max-w-5xl relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden "
-        initial={{ opacity: 0, y: 20 }}
-        variants={projectVariant}
-        whileInView={projectVariant.image}
-        viewport={{ once: true }}
-      >
+    <motion.div
+      className="w-full shadow-2xl lg:shadow-none rounded-lg"
+      initial={{ opacity: 0, y: 30 }}
+      variants={projectVariant}
+      whileInView={projectVariant.image}
+      viewport={{ once: true }}
+    >
+      <div className="max-w-5xl relative h-[30rem] lg:h-[22rem] xl:h-[28rem] flex flex-col overflow-hidden ">
         {/* image */}
         <div
           className={`absolute inset-0 w-[20rem] h-[30rem] lg:top-1/2 lg:-translate-y-1/2 flex lg:items-start flex-col`}
@@ -69,9 +69,14 @@ const ProjectsCard = ({
           <div className="md:bg-gray/90 text-white text-base lg:text-lg py-5 lg:px-7 lg:py-7 font-normal mb-4 rounded-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 duration-300">
             {about}
           </div>
-          <div className="flex flex-wrap justify-center md:justify-start items-center space-x-4 text-cyan text-sm lg:text-base select-none capitalize mt-5 font-semibold">
+          <div className="flex flex-wrap justify-center md:justify-start items-center space-x-4 mt-5">
             {builtWith.map((item, index) => (
-              <span key={index}>{item}</span>
+              <span
+                key={index}
+                className="text-cyan rounded-md text-sm lg:text-base select-none capitalize font-semibold"
+              >
+                {item}
+              </span>
             ))}
           </div>
           <div className="pt-5 pb-2 space-x-4 flex items-center mt-5">
@@ -87,8 +92,8 @@ const ProjectsCard = ({
             </Link>
           </div>
         </div>
-      </motion.div>
-    </div>
+      </div>
+    </motion.div>
   )
 }
 
