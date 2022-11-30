@@ -69,7 +69,7 @@ const ProjectsCard = ({
           <div className="md:bg-gray/90 text-white text-base lg:text-lg py-5 lg:px-7 lg:py-7 font-normal mb-4 rounded-lg shadow-xl hover:shadow-2xl hover:-translate-y-1 duration-300">
             {about}
           </div>
-          <div className="flex flex-wrap justify-center md:justify-start items-center space-x-4 mt-5">
+          <div className="flex flex-wrap justify-center md:justify-start items-center space-x-4">
             {builtWith.map((item, index) => (
               <span
                 key={index}
