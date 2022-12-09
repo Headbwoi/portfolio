@@ -38,6 +38,7 @@ const ContactForm = () => {
           className="h-full w-full outline-none focus-visible:ring-[3px] focus-visible:ring-cyan focus:cyan hover:ring-cyan hover:ring-2 rounded-sm bg-gray text-white placeholder:text-text caret-cyan px-4 lg:px-6 text-base lg:text-lg"
           required
         />
+        <input type="hidden" name="_captcha" value="false" />
       </div>
       <div className="w-full h-14 md:max-w-md lg:max-w-lg xl:max-w-xl">
         <button
