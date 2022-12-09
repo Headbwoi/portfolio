@@ -19,7 +19,7 @@
     "image": "projects/rock-paper-scissors.png",
     "link": "https://github.com/Headbwoi/rock-paper-scissors-game",
     "liveLink": "https://rps-game-et-moi.netlify.app/",
-    "about": "A Rock Paper Scissors Game built with React. Featuring A powerful AI designed to be efficient and unpredictable in choosing outcomes. Select your choice between Rock, Paper or Scissors and battle the AI immersing yourself in the wonderful transitions and animations that it features.",
+    "about": "A Rock Paper Scissors Game built with React. Featuring A powerful AI designed to be efficient and unpredictable. Select your choice between Rock, Paper or Scissors and battle the AI immersing yourself in beautiful transitions and animations.",
     "builtWith": [
       "vs code",
       "react",
