@@ -25,7 +25,7 @@ const Technologies = () => {
     <>
       <div className="w-full pt-10 mx-auto">
         <motion.div
-          className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full"
+          className="grid grid-cols-3 lg:grid-cols-4 gap-4 w-full"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0, transition: { duration: 0.3 } }}
         >

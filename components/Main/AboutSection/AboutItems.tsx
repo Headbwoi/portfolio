@@ -51,7 +51,7 @@ const AboutItems = () => {
               technologies and frameworks.
             </motion.p>
             <motion.p
-              className="font-normal text-lg text-text lg:text-xl mb-6"
+              className="font-normal text-lg text-text lg:text-xl mb-6 md:mb-11"
               initial={{ opacity: 0, y: 20 }}
               variants={aboutVariant}
               whileInView={aboutVariant.p3}
@@ -71,7 +71,7 @@ const AboutItems = () => {
           whileInView={aboutVariant.image}
           viewport={{ once: true }}
         >
-          <div className="w-full md:w-[95%] h-[23rem] lg:h-[27rem] xl:h-[31rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 ">
+          <div className="w-full md:w-[95%] h-[23rem] md:h-[30rem] lg:h-[27rem] xl:h-[31rem] relative rounded-md overflow-hidden border-2 border-cyan backdrop-blur-sm bg-cyan/20 z-20 ">
             <div className="grayscale group-hover:grayscale-0 duration-500 w-full h-full relative">
               <Image
                 src={"/me.png"}
@@ -84,7 +84,7 @@ const AboutItems = () => {
               />
             </div>
           </div>
-          <div className="absolute h-[23rem] md:w-[98%] lg:h-[27rem] xl:h-[31.5rem] w-full top-5 left-3 border-2 border-body z-10 bg-buttonBg rounded-lg group-hover:top-4 group-hover:left-3 duration-500"></div>
+          <div className="absolute h-[23rem] md:w-[98%] md:h-[30rem] lg:h-[27rem] xl:h-[31.5rem] w-full top-5 left-3 border-2 border-body z-10 bg-buttonBg rounded-lg group-hover:top-4 group-hover:left-3 duration-500"></div>
         </motion.div>
       </div>
     </>
