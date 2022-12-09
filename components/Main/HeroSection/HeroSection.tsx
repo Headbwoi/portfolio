@@ -46,7 +46,7 @@ const HeroSection = () => {
             animate={{
               y: 0,
               opacity: 1,
-              transition: { duration: 0.3, delay: 0.65 },
+              transition: { duration: 0.3, delay: 0.7 },
             }}
           >
             I build things for the web.
@@ -60,7 +60,7 @@ const HeroSection = () => {
             animate={{
               y: 0,
               opacity: 1,
-              transition: { duration: 0.3, delay: 0.7 },
+              transition: { duration: 0.3, delay: 0.8 },
             }}
           >
             I am a <span className="text-cyan">software engineer</span>, a
@@ -79,7 +79,7 @@ const HeroSection = () => {
           animate={{
             y: 0,
             opacity: 1,
-            transition: { duration: 0.3, delay: 0.75 },
+            transition: { duration: 0.3, delay: 0.9 },
           }}
         >
           <HireMeButton />
@@ -92,7 +92,7 @@ const HeroSection = () => {
           animate={{
             y: 0,
             opacity: 1,
-            transition: { duration: 0.3, delay: 0.8 },
+            transition: { duration: 0.3, delay: 0.9 },
           }}
         >
           <HeroNav name="learn about me">
