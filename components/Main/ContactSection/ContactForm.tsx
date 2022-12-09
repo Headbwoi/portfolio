@@ -4,6 +4,8 @@ import { contactFormVariant } from "../../../variants/contactVariants"
 const ContactForm = () => {
   return (
     <motion.form
+      action="https://formsubmit.co/b8e64647abbe4a2a4830ff3022995db4"
+      method="POST"
       className="flex flex-col justify-center items-center space-y-6 w-full"
       initial={contactFormVariant.name.init}
       variants={contactFormVariant.name}
