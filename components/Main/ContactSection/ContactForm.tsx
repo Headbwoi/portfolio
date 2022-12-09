@@ -18,6 +18,7 @@ const ContactForm = () => {
           placeholder="what's your name?"
           className="h-full w-full outline-none focus-visible:ring-[3px] focus-visible:ring-cyan focus:cyan hover:ring-cyan hover:ring-2 rounded-sm bg-gray text-white placeholder:text-text caret-cyan px-4 lg:px-6 text-base lg:text-lg"
           aria-label="enter your name"
+          required
         />
       </div>
       <div className="h-14 w-full md:max-w-md lg:max-w-lg xl:max-w-xl">
@@ -26,6 +27,7 @@ const ContactForm = () => {
           name="email"
           placeholder="What's your @email address?"
           className="h-full w-full outline-none focus-visible:ring-[3px] focus-visible:ring-cyan focus:cyan hover:ring-cyan hover:ring-2 rounded-sm bg-gray text-white placeholder:text-text caret-cyan px-4 lg:px-6 text-base lg:text-lg"
+          required
         />
       </div>
       <div className="h-14 w-full md:max-w-md lg:max-w-lg xl:max-w-xl">
@@ -34,6 +36,7 @@ const ContactForm = () => {
           name="textarea"
           placeholder="what do you have for me / offer "
           className="h-full w-full outline-none focus-visible:ring-[3px] focus-visible:ring-cyan focus:cyan hover:ring-cyan hover:ring-2 rounded-sm bg-gray text-white placeholder:text-text caret-cyan px-4 lg:px-6 text-base lg:text-lg"
+          required
         />
       </div>
       <div className="w-full h-14 md:max-w-md lg:max-w-lg xl:max-w-xl">
