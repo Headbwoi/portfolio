@@ -4,18 +4,25 @@ import { ContactIcons, ContactIconsMobile, Header } from "../components"
 import { useEffect, useState } from "react"
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [screenSize, setScreenSize] = useState({} as Number)
+  const [screenSize, setScreenSize] = useState("")
+
+  const handleResize = () => {
+    const size = window.screen.width
+    size < 768 ? setScreenSize("small") : setScreenSize("large")
+  }
 
   useEffect(() => {
+    window.onload = () => handleResize()
+    window.addEventListener("resize", handleResize)
     return () => {
-      setScreenSize(window.screen.width)
+      window.removeEventListener("resize", handleResize)
     }
   }, [screenSize])
   return (
     <>
       <Header />
       <Component {...pageProps} />
-      {screenSize < 768 ? <ContactIconsMobile /> : <ContactIcons />}
+      {screenSize == "small" ? <ContactIconsMobile /> : <ContactIcons />}
     </>
   )
 }
