@@ -65,10 +65,9 @@ const HeroSection = () => {
           >
             I am a <span className="text-cyan">self-taught</span>
             <span className="text-cyan"> Junior Frontend Developer</span> with
-            no professional working experiences and actively searching for
+            no professional working experience but actively searching for
             internships or junior roles. I love building interactive user
-            interfaces and experiences perfectly using the{" "}
-            <Text text="latest" /> and most{" "}
+            interfaces and experiences using the <Text text="latest" /> and most{" "}
             <Text text="efficient technologies " /> and design system for the
             best, easiest and most functional long-term solution that satisfies
             the clients requirements.
