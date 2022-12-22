@@ -8,6 +8,7 @@ const ResumeButton = () => {
     >
       <Link
         href={`https://drive.google.com/file/d/1q3uB910U8KOgeOoVpWG5UbPNHBHdSRzH/view`}
+        target="_blank"
       >
         <div className="flex w-full h-full items-center">
           <span className="text-white text-sm mr-3 group:hover:mr-1 font-normal capitalize tracking-wide">
