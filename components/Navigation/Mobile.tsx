@@ -51,11 +51,11 @@ const Mobile = ({ handleMenuToggle }: Props) => {
             <button
               className={`flex items-center justify-center rounded-md px-5 h-11 bg-buttonBg  hover:bg-cyan duration-300 group cursor-pointer`}
             >
-              <Link href={`/contactme`}>
+              <a href={`/docs/resume.pdf`} target="_blank" rel="noreferrer">
                 <span className="text-white text-base mr-3 group:hover:mr-1 font-semibold capitalize">
                   resume
                 </span>
-              </Link>
+              </a>
               <Download height="4" width="4" />
             </button>
           </div>
